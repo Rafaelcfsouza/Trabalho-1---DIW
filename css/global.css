@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Bangers";
+  src: url(../fontes/Bangers-Regular.ttf);
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --background-primary-color: #0f172a;
+  --background-secondary-color: #1e293b;
+
+  --text-primary-color: #f8fafc;
+  --text-secondary-color: #94a3b8;
+
+  --special-primary-color: #ff4500;
+  --special-secondary-color: #ffd700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
