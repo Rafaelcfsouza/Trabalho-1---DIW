@@ -1,0 +1,8 @@
+.carousel-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.carousel-item img {
+  height: 400px;
+}
