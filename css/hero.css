@@ -5,4 +5,24 @@
 
 .carousel-item img {
   height: 400px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 32px;
+}
+
+#carouselExampleCaptions {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 32px;
+  overflow: hidden;
+}
+
+.hero-section {
+  background-color: var(--background-secondary-color);
+  height: 550px;
+}
+
+@media (max-width: 430px) {
+  .carousel-item img {
+    border-radius: 10px;
+  }
 }
