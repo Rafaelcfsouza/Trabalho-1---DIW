@@ -1,0 +1,85 @@
+{
+    "cartas" : [
+        {
+            "id": 0,
+            "nome": "Monkey D Lyffy",
+            "raridade": "lendaria",
+            "destaque": true,
+            "poder": 12000,
+            "descricao": "Carta do luffy em seu gear 5.",
+            "subtitulo": "Straw Hat Pirates / Yonko",
+            "imagem": "./imagens/Luffy.png"
+        },
+        {
+            "id": 1,
+            "nome": "Roronoa Zoro",
+            "raridade": "lendaria",
+            "destaque": false,
+            "poder": 12000,
+            "descricao": "Carta do Zoro usando seu golpe daishinkan.",
+            "subtitulo": "Straw Hat Pirates / Pirate Hunter",
+            "imagem": "./imagens/Zoro.png"
+        },
+        {
+            "id": 2,
+            "nome": "Monkey D Garp",
+            "raridade": "lendaria",
+            "destaque": true,
+            "poder": 12000,
+            "descricao": "Carta do Garp usando seu golpe Galaxy Impact.",
+            "subtitulo": "Navy / The Hero",
+            "imagem": "./imagens/Garp.png"
+        },
+        {
+            "id": 3,
+            "nome": "Shanks",
+            "raridade": "lendaria",
+            "destaque": false,
+            "poder": 12000,
+            "descricao": "Carta do Shanks usando todo seu haki.",
+            "subtitulo": "Red Hair Pirates / Yonko",
+            "imagem": "./imagens/Shanks.png"
+        },
+        {
+            "id": 4,
+            "nome": "Naruto Uzumaki",
+            "raridade": "lendaria",
+            "destaque": true,
+            "poder": 12000,
+            "descricao": "Carta do Naruto em seu modo Baryon.",
+            "subtitulo": "Konoha / Seventh Hokage",
+            "imagem": "./imagens/NarutoBaryon.png"
+        },
+        {
+            "id": 5,
+            "nome": "Sasuke Uchiha",
+            "raridade": "lendaria",
+            "destaque": true,
+            "poder": 12000,
+            "descricao": "Carta do Sasuke usando seu susano.",
+            "subtitulo": "Konoha / Last Uchiha",
+            "imagem": "./imagens/SasukeUchiha.png"
+        },
+        {
+            "id": 6,
+            "nome": "Pikachu VMAX",
+            "raridade": "lendaria",
+            "destaque": true,
+            "poder": 12000,
+            "descricao": "Carta do Pikachu VMAX.",
+            "subtitulo": "Pokémon / Electric Type",
+            "imagem": "./imagens/PikachuVMAX.png"
+        },
+        {
+            "id": 7,
+            "nome": "Charizard EX",
+            "raridade": "lendaria",
+            "destaque": true,
+            "poder": 12000,
+            "descricao": "Carta do Charizard EX.",
+            "subtitulo": "Pokémon / Fire Type",
+            "imagem": "./imagens/CharizardEX.png"
+        }
+        
+    ]
+}
