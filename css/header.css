@@ -23,3 +23,13 @@ header {
 .logo-decks {
   color: var(--special-secondary-color);
 }
+
+@media (max-width: 430px) {
+  .logo {
+    margin: 0;
+  }
+
+  header {
+    justify-content: center;
+  }
+}
