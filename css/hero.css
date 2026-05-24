@@ -1,42 +1,148 @@
-.carousel-container {
-  width: 30%;
-  margin: 0 auto;
-}
-
-.carousel-item img {
-  height: 400px;
-  object-fit: contain;
-  object-position: center;
-  border-radius: 32px;
-}
-
-#carouselExampleCaptions {
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
-  border-radius: 32px;
+.hero-section {
+  background-color: var(--background-secondary-color);
+  width: 100%;
   overflow: hidden;
 }
 
-.carousel-caption {
-  background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.85) 0%,
-    rgba(0, 0, 0, 0.4) 60%,
-    rgba(0, 0, 0, 0) 100%
-  );
+.meuCarrossel {
   width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 90px;
+  position: relative;
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+  overflow: visible !important;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.swiper-wrapper {
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+.swiper-slide {
+  width: 320px !important;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  backface-visibility: hidden;
+  pointer-events: auto !important;
+}
+
+.carta-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.imagem-carta-pura {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+  transform: translateZ(0);
+  pointer-events: none;
+}
+
+.info-carta-externa {
+  margin-top: 15px;
+  min-height: 60px;
+}
+
+.info-carta-externa h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+.info-carta-externa p {
+  font-size: 0.85rem;
+  color: #a0a0a0 !important;
+}
+
+.meuCarrossel .swiper-pagination {
+  bottom: 15px !important;
+  position: absolute;
   left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 40px 20px 20px 20px;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
 }
 
-.hero-section {
-  background-color: var(--background-secondary-color);
-  height: 550px;
+.meuCarrossel .swiper-pagination-bullet {
+  background: #fff !important;
+  opacity: 0.4;
+  width: 10px;
+  height: 10px;
 }
 
-@media (max-width: 430px) {
-  .carousel-item img {
-    border-radius: 10px;
+.meuCarrossel .swiper-pagination-bullet-active {
+  background: #ffc107 !important;
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #fff !important;
+  background: rgba(0, 0, 0, 0.6);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  opacity: 0;
+  transition:
+    opacity 0.3s ease,
+    transform 0.2s ease;
+  z-index: 20;
+  pointer-events: none;
+}
+
+.swiper-button-prev {
+  left: 15px !important;
+}
+
+.swiper-button-next {
+  right: 15px !important;
+}
+
+.meuCarrossel:hover .swiper-button-next,
+.meuCarrossel:hover .swiper-button-prev {
+  opacity: 1;
+  pointer-events: auto !important;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 18px;
+}
+
+@media (max-width: 992px) {
+  .meuCarrossel {
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .swiper-slide {
+    width: 180px !important;
+  }
+  .meuCarrossel {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-bottom: 110px;
+    overflow: hidden !important;
+  }
+  .info-carta-externa h5 {
+    font-size: 0.95rem;
   }
 }
