@@ -23,7 +23,12 @@
 }
 
 body {
-  background-color: var(--background-primary-color);
+  background: radial-gradient(
+    circle at top,
+    #1e293b 0%,
+    #0f172a 45%,
+    #020617 100%
+  );
 }
 
 .section-title {
@@ -34,7 +39,8 @@ body {
 
 .section-title h2 {
   color: var(--text-primary-color);
-  font-size: 32px;
+  font-family: "Bangers";
+  font-size: 42px;
 }
 
 .section-title hr {
@@ -42,4 +48,8 @@ body {
   background-color: var(--special-secondary-color);
   height: 2px;
   opacity: 1;
+  box-shadow:
+    0 0 5px #ff4500,
+    0 0 10px #ff4500,
+    0 0 20px rgba(255, 215, 0, 0.6);
 }

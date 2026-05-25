@@ -1,38 +1,30 @@
 .hero-section {
-  background-color: var(--background-secondary-color);
+  background: radial-gradient(
+    circle at center,
+    #1e293b 0%,
+    #0f172a 45%,
+    #020617 100%
+  );
   width: 100%;
   overflow: hidden;
 }
 
 .meuCarrossel {
   width: 100%;
-  max-width: 1500px;
+  max-width: 1200px;
   margin: 0 auto;
   padding-top: 30px;
-  padding-bottom: 90px;
+  padding-bottom: 70px;
   position: relative;
-  padding-left: 100px !important;
-  padding-right: 100px !important;
-  overflow: visible !important;
-  user-select: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-}
-
-.swiper-wrapper {
-  transform-style: preserve-3d;
-  will-change: transform;
 }
 
 .swiper-slide {
-  width: 320px !important;
-  height: auto;
+  width: 300px !important;
+  height: 480px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  backface-visibility: hidden;
-  pointer-events: auto !important;
+  justify-content: flex-start;
 }
 
 .carta-card {
@@ -43,29 +35,32 @@
 
 .imagem-carta-pura {
   width: 100%;
-  height: auto;
-  display: block;
+  height: 400px;
   border-radius: 18px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
-  transform: translateZ(0);
-  pointer-events: none;
+  box-shadow:
+    0 0 20px rgba(255, 215, 0, 0.35),
+    0 0 50px rgba(255, 69, 0, 0.2);
+  display: block;
 }
 
 .info-carta-externa {
   margin-top: 15px;
-  min-height: 60px;
+  text-align: center;
+  width: 100%;
 }
 
 .info-carta-externa h5 {
   font-size: 1.1rem;
   font-weight: 600;
   color: #fff;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+  margin-bottom: 4px;
+  margin-top: 32px;
 }
 
 .info-carta-externa p {
   font-size: 0.85rem;
-  color: #a0a0a0 !important;
+  color: var(--text-secondary-color) !important;
+  margin-bottom: 0;
 }
 
 .meuCarrossel .swiper-pagination {
@@ -77,6 +72,24 @@
   z-index: 10;
 }
 
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  perspective: 1200px;
+  border-radius: 32px;
+}
+
+.swiper-slide-active .card-wrapper:hover .imagem-carta-pura {
+  transform: rotateY(10deg) rotateX(4deg) translateY(-10px) scale(1.05);
+
+  box-shadow:
+    0 0 15px rgba(255, 69, 0, 0.5),
+    0 0 30px rgba(255, 69, 0, 0.3),
+    0 0 60px rgba(255, 215, 0, 0.35);
+}
+
 .meuCarrossel .swiper-pagination-bullet {
   background: #fff !important;
   opacity: 0.4;
@@ -85,64 +98,40 @@
 }
 
 .meuCarrossel .swiper-pagination-bullet-active {
-  background: #ffc107 !important;
+  background: var(--special-secondary-color) !important;
   opacity: 1;
   transform: scale(1.2);
 }
 
-.swiper-button-prev,
-.swiper-button-next {
-  color: #fff !important;
-  background: rgba(0, 0, 0, 0.6);
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: #ffffff;
+  color: var(--special-primary-color) !important;
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  opacity: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   transition:
-    opacity 0.3s ease,
-    transform 0.2s ease;
+    transform 0.2s ease,
+    opacity 0.2s ease;
   z-index: 20;
-  pointer-events: none;
-}
-
-.swiper-button-prev {
-  left: 15px !important;
-}
-
-.swiper-button-next {
-  right: 15px !important;
-}
-
-.meuCarrossel:hover .swiper-button-next,
-.meuCarrossel:hover .swiper-button-prev {
-  opacity: 1;
-  pointer-events: auto !important;
 }
 
 .swiper-button-next::after,
 .swiper-button-prev::after {
   font-size: 18px;
+  font-weight: bold;
 }
 
-@media (max-width: 992px) {
-  .meuCarrossel {
-    padding-left: 60px !important;
-    padding-right: 60px !important;
-  }
+.swiper-button-prev {
+  left: 20px !important;
 }
 
-@media (max-width: 768px) {
-  .swiper-slide {
-    width: 180px !important;
-  }
-  .meuCarrossel {
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-    padding-bottom: 110px;
-    overflow: hidden !important;
-  }
-  .info-carta-externa h5 {
-    font-size: 0.95rem;
-  }
+.swiper-button-next {
+  right: 20px !important;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  transform: scale(1.05);
 }

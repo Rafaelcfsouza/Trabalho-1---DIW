@@ -1,0 +1,187 @@
+/* ==========================================================================
+   CONFIGURAÇÕES DO CARROSSEL (SWIPER)
+   ========================================================================== */
+
+.hero-section {
+  background-color: var(--background-secondary-color);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Garante que tudo dentro da section fique centralizado */
+}
+
+.meuCarrossel {
+  width: 100%;
+  max-width: 1400px; /* Um limite confortável para as cartas não espalharem demais */
+  margin: 0 auto !important; /* Centraliza o bloco do carrossel na tela */
+  padding-top: 30px;
+  padding-bottom: 90px;
+  position: relative;
+
+  /* IMPORTANTE: Removemos qualquer padding lateral forçado que tire o centro do lugar */
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+
+  /* Permite que as cartas das pontas apareçam, mas mantém o limite do container */
+  overflow: visible !important;
+
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+/* Força a linha que segura os slides a respeitar o centro */
+.swiper-wrapper {
+  transform-style: preserve-3d;
+  will-change: transform;
+  display: flex;
+  align-items: center;
+}
+
+.swiper-slide {
+  width: 300px !important; /* Ajustado para encaixar melhor o bloco de cartas na horizontal */
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  backface-visibility: hidden;
+  pointer-events: auto !important;
+
+  /* Garante uma transição suave de opacidade/escala se necessário */
+  transition: transform 0.3s ease;
+}
+
+.carta-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.imagem-carta-pura {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+  transform: translateZ(0);
+  pointer-events: none;
+}
+
+.info-carta-externa {
+  margin-top: 15px;
+  min-height: 60px;
+}
+
+.info-carta-externa h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+.info-carta-externa p {
+  font-size: 0.85rem;
+  color: #a0a0a0 !important;
+}
+
+/* Paginação (Bolinhas) */
+.meuCarrossel .swiper-pagination {
+  bottom: 15px !important;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+}
+
+.meuCarrossel .swiper-pagination-bullet {
+  background: #fff !important;
+  opacity: 0.4;
+  width: 10px;
+  height: 10px;
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.meuCarrossel .swiper-pagination-bullet-active {
+  background: #ffc107 !important;
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+/* Botões de Navegação (Setas) */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #fff !important;
+  background: rgba(0, 0, 0, 0.6);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  opacity: 0;
+  transition:
+    opacity 0.3s ease,
+    transform 0.2s ease,
+    background-color 0.2s ease;
+  z-index: 20;
+  pointer-events: none;
+  top: 45% !important;
+}
+
+/* Posiciona as setas um pouco mais para dentro para não sumirem no overflow */
+.swiper-button-prev {
+  left: 40px !important;
+}
+
+.swiper-button-next {
+  right: 40px !important;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.meuCarrossel:hover .swiper-button-next,
+.meuCarrossel:hover .swiper-button-prev {
+  opacity: 1;
+  pointer-events: auto !important;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 18px;
+}
+
+/* ==========================================================================
+   RESPONSIVIDADE (MEDIA QUERIES)
+   ========================================================================== */
+
+@media (max-width: 1200px) {
+  .swiper-slide {
+    width: 250px !important; /* Diminui proporcionalmente em telas médias */
+  }
+}
+
+@media (max-width: 768px) {
+  .swiper-slide {
+    width: 190px !important; /* Tamanho ideal para celulares */
+  }
+
+  .meuCarrossel {
+    padding-bottom: 110px;
+    overflow: hidden !important; /* Corta o overflow no mobile para evitar barra de rolagem horizontal */
+  }
+
+  .info-carta-externa h5 {
+    font-size: 0.95rem;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none !important; /* Mobile foca apenas no Touch */
+  }
+}
