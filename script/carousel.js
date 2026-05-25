@@ -25,6 +25,14 @@ const carousel = {
                             <p class="text-muted small mb-0">${carta.subtitulo || ''}</p>
                         </div>
                     </div>`
+
+                    item.addEventListener('click', () => {
+                    // Se a carta clicada já for a ativa/centralizada, redireciona para descrição
+                    if (item.classList.contains('swiper-slide-active')) {
+                        window.location.href = `descricao.html?id=${carta.id || carta.nome}`;
+                    }
+                });
+
                 inner.appendChild(item)
             })
 
