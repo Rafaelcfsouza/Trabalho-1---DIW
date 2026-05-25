@@ -1,13 +1,25 @@
 header {
   display: flex;
   align-items: center;
-  background-color: var(--background-secondary-color);
+  background-color: var(--background-primary-color);
   height: 100px;
-  border-bottom: 2px solid var(--special-primary-color);
+  backdrop-filter: blur(12px);
+  background: radial-gradient(
+    circle at center,
+    #1e293b 0%,
+    #0f172a 45%,
+    #020617 100%
+  );
+  border-bottom: 2px solid rgba(255, 69, 0, 0.5);
+  box-shadow: 0 4px 30px rgba(255, 69, 0, 0.15);
 }
 
 .logo {
   margin-left: 100px;
+}
+
+.logo img {
+  height: 150px;
 }
 
 .logo a {

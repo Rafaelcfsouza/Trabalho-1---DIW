@@ -1,0 +1,11 @@
+# Ignorar as dependências do Node (pasta que criamos ao instalar o json-server)
+node_modules/
+
+# Ignorar arquivos de log de erro do npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar arquivos do sistema operacional (opcional, mas bom ter)
+.DS_Store
+Thumbs.db
