@@ -14,7 +14,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding-top: 30px;
-  padding-bottom: 70px;
+  padding-bottom: 100px;
   position: relative;
 }
 
@@ -47,6 +47,11 @@
   margin-top: 15px;
   text-align: center;
   width: 100%;
+  opacity: 0;
+  transition:
+    opacity 0.4s ease,
+    transform 0.4s ease;
+  transform: translateY(10px);
 }
 
 .info-carta-externa h5 {
@@ -57,9 +62,124 @@
   margin-top: 32px;
 }
 
+.raridade {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.raridade h6 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0 15px;
+  white-space: nowrap;
+  width: 100px;
+  border-radius: 32px;
+  border: 2px;
+}
+
+.raridade {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.raridade::before,
+.raridade::after {
+  content: "";
+  flex: 1;
+  max-width: 60px;
+  height: 1px;
+  background-color: rgba(212, 175, 55, 0.4);
+}
+
+.raridade {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.raridade::before,
+.raridade::after {
+  content: "";
+  flex: 1;
+  max-width: 60px;
+  height: 2px;
+  transition: background-color 0.3s ease;
+}
+
+.raridade h6 {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0 15px !important;
+  white-space: nowrap;
+  padding: 6px;
+  border-radius: 50px;
+  display: inline-block;
+  background-color: rgba(13, 17, 23, 0.85);
+}
+
+.raridade-comum h6 {
+  border: 2px solid #525666;
+  color: #8fa0ba !important;
+}
+.raridade-comum::before,
+.raridade-comum::after {
+  background-color: #525666;
+}
+
+.raridade-raro h6 {
+  border: 2px solid #0099ff;
+  color: #38bdf8 !important;
+}
+.raridade-raro::before,
+.raridade-raro::after {
+  background-color: #0099ff;
+}
+
+.raridade-epica h6,
+.raridade-epica h6 {
+  border: 2px solid #a335ee;
+  color: #c084fc !important;
+}
+
+.raridade-epica::before,
+.raridade-epica::after {
+  background-color: #a335ee;
+}
+
+.raridade-lendaria h6,
+.raridade-lendaria h6 {
+  border: 2px solid #eab308;
+  color: #eab308 !important;
+}
+
+.raridade-lendaria::before,
+.raridade-lendaria::after {
+  background-color: #eab308;
+}
+
+.raridade::before,
+.raridade::after {
+  content: "";
+  flex: 1;
+  max-width: 80px;
+  height: 2px;
+}
+
 .info-carta-externa p {
   font-size: 0.85rem;
   color: var(--text-secondary-color) !important;
+  margin-top: 5px;
   margin-bottom: 0;
 }
 
@@ -88,6 +208,11 @@
     0 0 15px rgba(255, 69, 0, 0.5),
     0 0 30px rgba(255, 69, 0, 0.3),
     0 0 60px rgba(255, 215, 0, 0.35);
+}
+
+.swiper-slide-active .info-carta-externa {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .meuCarrossel .swiper-pagination-bullet {

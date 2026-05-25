@@ -19,6 +19,9 @@ const carousel = {
                     </div>
                         <div class="info-carta-externa text-center mt-2 text-white">
                             <h5 class="mb-1">${carta.nome}</h5>
+                             <div class="raridade raridade-${carta.raridade}">
+                                <h6 class="raridade-text">${carta.raridade}</h6>
+                             </div>
                             <p class="text-muted small mb-0">${carta.subtitulo || ''}</p>
                         </div>
                     </div>`
@@ -41,6 +44,7 @@ const carousel = {
             centeredSlides: true,
             slidesPerView: 'auto',
             loop: true,
+            slideToClickedSlide: true,
             coverflowEffect: {
                 rotate: 0,
                 stretch: 0,
