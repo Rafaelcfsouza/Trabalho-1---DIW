@@ -41,6 +41,7 @@ body {
   color: var(--text-primary-color);
   font-family: "Bangers";
   font-size: 42px;
+  text-align: center;
 }
 
 .section-title hr {
