@@ -1,6 +1,9 @@
+.raridades-section {
+  padding: 32px 0 64px;
+}
+
 .raridades-grid {
   display: flex;
-  height: 200px;
   align-items: center;
   margin: 0 auto;
   gap: 40px;
@@ -47,4 +50,10 @@
 .raridade-item p {
   color: var(--text-secondary-color);
   margin: 0;
+}
+
+@media (max-width: 768px) {
+  .raridades-grid {
+    flex-wrap: wrap;
+  }
 }
