@@ -12,7 +12,7 @@ const grid = {
                 item.className = 'col'
                 item.innerHTML = `
                 <a href="destaques.html">
-                    <div class="card">
+                    <div class="card ${carta.raridade}">
                         <img src="${carta.imagem}" class="card-img-top" alt="Carta colecionavel do personagem ${carta.nome}">
                         <div class="card-body">
                             <h5 class="card-title">${carta.nome}</h5>

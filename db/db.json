@@ -113,7 +113,7 @@
     {
       "id": 11,
       "nome": "Megumi Fushiguro",
-      "raridade": "incomum",
+      "raridade": "rara",
       "destaque": false,
       "poder": 6000,
       "descricao": "Invocando as Sombras Divinas com a técnica das Dez Sombras.",
@@ -153,7 +153,7 @@
     {
       "id": 15,
       "nome": "Shoto Todoroki",
-      "raridade": "incomum",
+      "raridade": "rara",
       "destaque": false,
       "poder": 7500,
       "descricao": "Dominando o equilíbrio perfeito entre o seu lado de fogo e gelo.",
@@ -193,7 +193,7 @@
     {
       "id": 19,
       "nome": "Kurapika",
-      "raridade": "incomum",
+      "raridade": "rara",
       "destaque": false,
       "poder": 7000,
       "descricao": "Com os Olhos Escarlates ativos, pronto para usar suas correntes de Nen.",
@@ -233,7 +233,7 @@
     {
       "id": 23,
       "nome": "Sakura Haruno",
-      "raridade": "incomum",
+      "raridade": "comum",
       "destaque": false,
       "poder": 5500,
       "descricao": "Concentrando força monstruosa e chakra médico em seus punhos.",
