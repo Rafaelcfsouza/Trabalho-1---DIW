@@ -289,6 +289,16 @@
       "descricao": "O Assassino de Feiticeiros Nascido sem energia amaldiçoada, portador da restrição celestial.",
       "subtitulo": "Jujutsu Kaisen / Sorcerer Killer",
       "imagem": "./imagens/Toji.png"
+    },
+    {
+      "id": 29,
+      "nome": "Boa Hancock",
+      "raridade": "epica",
+      "destaque": false,
+      "poder": 7800,
+      "descricao": "A Imperatriz Pirata petrificando inimigos com a Mero Mero no Mi através do seu raio de atração.",
+      "subtitulo": "Kuja Pirates / Former Shichibukai",
+      "imagem": "./imagens/Hancock.png"
     }
   ]
 }
