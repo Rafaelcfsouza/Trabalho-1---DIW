@@ -1,0 +1,107 @@
+.all-cards .section-title {
+  margin: 0 auto 64px;
+}
+
+.all-cards {
+  background: radial-gradient(
+    circle at center,
+    #1e293b 0%,
+    #0f172a 45%,
+    #020617 100%
+  );
+  padding: 64px 0;
+}
+
+#card-grid {
+  overflow: visible !important;
+}
+
+#card-grid .card-img-top {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  padding: 10px;
+}
+
+#card-grid .card {
+  width: 100%;
+  max-width: 300px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  border-width: 4px;
+  border-style: solid;
+  text-decoration: none;
+  overflow: visible !important;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  background: linear-gradient(
+    to bottom right,
+    var(--background-primary-color),
+    var(--background-secondary-color)
+  );
+}
+
+#card-grid .card h5 {
+  color: var(--text-primary-color);
+}
+
+#card-grid .card p {
+  color: var(--text-secondary-color);
+}
+
+.card.lendaria {
+  border-color: #eab308;
+}
+.card.epica {
+  border-color: #a335ee;
+}
+.card.rara {
+  border-color: #0099ff;
+}
+.card.comum {
+  border-color: #525666;
+}
+
+.card.lendaria:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(234, 179, 8, 0.6);
+}
+
+.card.epica:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(163, 53, 238, 0.5);
+}
+
+.card.rara:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 153, 255, 0.5);
+}
+
+.card.comum:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(82, 86, 102, 0.4);
+}
+
+@media (max-width: 850px) {
+  #card-grid .card {
+    max-width: 250px;
+    height: 300px;
+  }
+
+  #card-grid .card h5 {
+    font-size: 1.1rem;
+  }
+
+  #card-grid .card p {
+    font-size: 0.85rem;
+  }
+
+  #card-grid .card-img-top {
+    padding: 6px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center top;
+  }
+}

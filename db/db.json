@@ -1,85 +1,304 @@
 {
-    "cartas" : [
-        {
-            "id": 0,
-            "nome": "Monkey D Lyffy",
-            "raridade": "lendaria",
-            "destaque": true,
-            "poder": 12000,
-            "descricao": "Carta do luffy em seu gear 5.",
-            "subtitulo": "Straw Hat Pirates / Yonko",
-            "imagem": "./imagens/Luffy.png"
-        },
-        {
-            "id": 1,
-            "nome": "Roronoa Zoro",
-            "raridade": "lendaria",
-            "destaque": true,
-            "poder": 12000,
-            "descricao": "Carta do Zoro usando seu golpe daishinkan.",
-            "subtitulo": "Straw Hat Pirates / Pirate Hunter",
-            "imagem": "./imagens/Zoro.png"
-        },
-        {
-            "id": 2,
-            "nome": "Monkey D Garp",
-            "raridade": "lendaria",
-            "destaque": true,
-            "poder": 12000,
-            "descricao": "Carta do Garp usando seu golpe Galaxy Impact.",
-            "subtitulo": "Navy / The Hero",
-            "imagem": "./imagens/Garp.png"
-        },
-        {
-            "id": 3,
-            "nome": "Shanks",
-            "raridade": "lendaria",
-            "destaque": true,
-            "poder": 12000,
-            "descricao": "Carta do Shanks usando todo seu haki.",
-            "subtitulo": "Red Hair Pirates / Yonko",
-            "imagem": "./imagens/Shanks.png"
-        },
-        {
-            "id": 4,
-            "nome": "Naruto Uzumaki",
-            "raridade": "lendaria",
-            "destaque": true,
-            "poder": 12000,
-            "descricao": "Carta do Naruto em seu modo Baryon.",
-            "subtitulo": "Konoha / Seventh Hokage",
-            "imagem": "./imagens/NarutoBaryon.png"
-        },
-        {
-            "id": 5,
-            "nome": "Sasuke Uchiha",
-            "raridade": "lendaria",
-            "destaque": true,
-            "poder": 12000,
-            "descricao": "Carta do Sasuke usando seu susano.",
-            "subtitulo": "Konoha / Last Uchiha",
-            "imagem": "./imagens/SasukeUchiha.png"
-        },
-        {
-            "id": 6,
-            "nome": "Pikachu VMAX",
-            "raridade": "lendaria",
-            "destaque": true,
-            "poder": 12000,
-            "descricao": "Carta do Pikachu VMAX.",
-            "subtitulo": "Pokémon / Electric Type",
-            "imagem": "./imagens/PikachuVMAX.png"
-        },
-        {
-            "id": 7,
-            "nome": "Charizard EX",
-            "raridade": "lendaria",
-            "destaque": true,
-            "poder": 12000,
-            "descricao": "Carta do Charizard EX.",
-            "subtitulo": "Pokémon / Fire Type",
-            "imagem": "./imagens/CharizardEX.png"
-        }
-        
-    ]
+  "cartas": [
+    {
+      "id": 0,
+      "nome": "Monkey D. Luffy",
+      "raridade": "lendaria",
+      "destaque": true,
+      "poder": 12000,
+      "descricao": "Carta do luffy em seu gear 5.",
+      "subtitulo": "Straw Hat Pirates / Yonko",
+      "imagem": "./imagens/Luffy.png"
+    },
+    {
+      "id": 1,
+      "nome": "Roronoa Zoro",
+      "raridade": "lendaria",
+      "destaque": true,
+      "poder": 12000,
+      "descricao": "Carta do Zoro usando seu golpe daishinkan.",
+      "subtitulo": "Straw Hat Pirates / Pirate Hunter",
+      "imagem": "./imagens/ZoroCerto.png"
+    },
+    {
+      "id": 2,
+      "nome": "Monkey D Garp",
+      "raridade": "lendaria",
+      "destaque": true,
+      "poder": 12000,
+      "descricao": "Carta do Garp usando seu golpe Galaxy Impact.",
+      "subtitulo": "Navy / The Hero",
+      "imagem": "./imagens/Garp.png"
+    },
+    {
+      "id": 3,
+      "nome": "Shanks",
+      "raridade": "lendaria",
+      "destaque": true,
+      "poder": 12000,
+      "descricao": "Carta do Shanks usando todo seu haki.",
+      "subtitulo": "Red Hair Pirates / Yonko",
+      "imagem": "./imagens/Shanks.png"
+    },
+    {
+      "id": 4,
+      "nome": "Naruto Uzumaki",
+      "raridade": "lendaria",
+      "destaque": true,
+      "poder": 12000,
+      "descricao": "Carta do Naruto em seu modo Baryon.",
+      "subtitulo": "Konoha / Seventh Hokage",
+      "imagem": "./imagens/NarutoBaryon.png"
+    },
+    {
+      "id": 5,
+      "nome": "Sasuke Uchiha",
+      "raridade": "lendaria",
+      "destaque": true,
+      "poder": 12000,
+      "descricao": "Carta do Sasuke usando seu susano.",
+      "subtitulo": "Konoha / Last Uchiha",
+      "imagem": "./imagens/SasukeUchiha.png"
+    },
+    {
+      "id": 6,
+      "nome": "Pikachu VMAX",
+      "raridade": "lendaria",
+      "destaque": true,
+      "poder": 310,
+      "descricao": "Carta do Pikachu VMAX.",
+      "subtitulo": "Pokémon / Electric Type",
+      "imagem": "./imagens/PikachuVMAX.png"
+    },
+    {
+      "id": 7,
+      "nome": "Charizard EX",
+      "raridade": "lendaria",
+      "destaque": true,
+      "poder": 330,
+      "descricao": "Carta do Charizard EX.",
+      "subtitulo": "Pokémon / Fire Type",
+      "imagem": "./imagens/CharizardEX.png"
+    },
+    {
+      "id": 8,
+      "nome": "Satoru Gojo",
+      "raridade": "lendaria",
+      "destaque": false,
+      "poder": 15000,
+      "descricao": "O feiticeiro Jujutsu mais forte, usando seu vazio infinito (Purple Hollow).",
+      "subtitulo": "Jujutsu Kaisen / Special Grade Sorcerer",
+      "imagem": "./imagens/GojoDif.png"
+    },
+    {
+      "id": 9,
+      "nome": "Sukuna",
+      "raridade": "lendaria",
+      "destaque": true,
+      "poder": 14500,
+      "descricao": "O Rei das Maldições manifestando seu Santuário Malevolente.",
+      "subtitulo": "Jujutsu Kaisen / King of Curses",
+      "imagem": "./imagens/Sukuna.png"
+    },
+    {
+      "id": 10,
+      "nome": "Yuji Itadori",
+      "raridade": "epica",
+      "destaque": false,
+      "poder": 8500,
+      "descricao": "Yuji concentrando energia amaldiçoada para desferir um Kokusen (Black Flash).",
+      "subtitulo": "Jujutsu Kaisen / Jujutsu High Student",
+      "imagem": "./imagens/Itadori.png"
+    },
+    {
+      "id": 11,
+      "nome": "Megumi Fushiguro",
+      "raridade": "rara",
+      "destaque": false,
+      "poder": 6000,
+      "descricao": "Invocando as Sombras Divinas com a técnica das Dez Sombras.",
+      "subtitulo": "Jujutsu Kaisen / Zenin Clan",
+      "imagem": "./imagens/Megumi.png"
+    },
+    {
+      "id": 12,
+      "nome": "Izuku Midoriya (Deku)",
+      "raridade": "rara",
+      "destaque": false,
+      "poder": 9500,
+      "descricao": "Deku ativando o One For All: Full Cowl a 100%.",
+      "subtitulo": "Boku no Hero / U.A. Student",
+      "imagem": "./imagens/Deku.png"
+    },
+    {
+      "id": 13,
+      "nome": "All Might",
+      "raridade": "lendaria",
+      "destaque": true,
+      "poder": 13000,
+      "descricao": "O Símbolo da Paz desferindo o lendário United States of Smash.",
+      "subtitulo": "Boku no Hero / Pro Hero",
+      "imagem": "./imagens/AllMight.png"
+    },
+    {
+      "id": 14,
+      "nome": "Katsuki Bakugo",
+      "raridade": "rara",
+      "destaque": false,
+      "poder": 8800,
+      "descricao": "Disparando explosões massivas acumuladas em suas manoplas.",
+      "subtitulo": "Boku no Hero / U.A. Student",
+      "imagem": "./imagens/Bakugo.png"
+    },
+    {
+      "id": 15,
+      "nome": "Shoto Todoroki",
+      "raridade": "rara",
+      "destaque": false,
+      "poder": 7500,
+      "descricao": "Dominando o equilíbrio perfeito entre o seu lado de fogo e gelo.",
+      "subtitulo": "Boku no Hero / U.A. Student",
+      "imagem": "./imagens/Todoroki.png"
+    },
+    {
+      "id": 16,
+      "nome": "Gon Freecss",
+      "raridade": "rara",
+      "destaque": false,
+      "poder": 8000,
+      "descricao": "Concentrando toda a sua aura no devastador Jajanken: Pedra.",
+      "subtitulo": "Hunter x Hunter / Rookie Hunter",
+      "imagem": "./imagens/Gon.png"
+    },
+    {
+      "id": 17,
+      "nome": "Killua Zoldyck",
+      "raridade": "epica",
+      "destaque": false,
+      "poder": 8500,
+      "descricao": "Ativando a velocidade divina com a técnica Godspeed.",
+      "subtitulo": "Hunter x Hunter / Assassin Prototype",
+      "imagem": "./imagens/Killua.png"
+    },
+    {
+      "id": 18,
+      "nome": "Hisoka Morow",
+      "raridade": "epica",
+      "destaque": false,
+      "poder": 11000,
+      "descricao": "Manipulando sua aura com as propriedades elásticas da Bungee Gum.",
+      "subtitulo": "Hunter x Hunter / Phantom Troupe #4",
+      "imagem": "./imagens/Hisoka.png"
+    },
+    {
+      "id": 19,
+      "nome": "Kurapika",
+      "raridade": "epica",
+      "destaque": false,
+      "poder": 7000,
+      "descricao": "Com os Olhos Escarlates ativos, pronto para usar suas correntes de Nen.",
+      "subtitulo": "Hunter x Hunter / Blacklist Hunter",
+      "imagem": "./imagens/Kurapika.png"
+    },
+    {
+      "id": 20,
+      "nome": "Tony Tony Chopper",
+      "raridade": "comum",
+      "destaque": false,
+      "poder": 2500,
+      "descricao": "O médico dos Chapéu de Palha em sua forma Brain Point.",
+      "subtitulo": "Straw Hat Pirates / Doctor",
+      "imagem": "./imagens/Chopper.png"
+    },
+    {
+      "id": 21,
+      "nome": "Usopp",
+      "raridade": "comum",
+      "destaque": false,
+      "poder": 2000,
+      "descricao": "Mirando com precisão milimétrica usando seu estilingue Kabuto.",
+      "subtitulo": "Straw Hat Pirates / Sniper",
+      "imagem": "./imagens/Usopp.png"
+    },
+    {
+      "id": 22,
+      "nome": "Kakashi Hatake",
+      "raridade": "rara",
+      "destaque": false,
+      "poder": 8200,
+      "descricao": "O Ninja Copiador preparando seu famoso relâmpago, o Chidori.",
+      "subtitulo": "Konoha / Copy Ninja",
+      "imagem": "./imagens/Kakashi.png"
+    },
+    {
+      "id": 23,
+      "nome": "Sakura Haruno",
+      "raridade": "comum",
+      "destaque": false,
+      "poder": 5500,
+      "descricao": "Concentrando força monstruosa e chakra médico em seus punhos.",
+      "subtitulo": "Konoha / Medical Ninja",
+      "imagem": "./imagens/Sakura.png"
+    },
+    {
+      "id": 24,
+      "nome": "Gengar",
+      "raridade": "rara",
+      "destaque": false,
+      "poder": 130,
+      "descricao": "Um Pokémon travesso que se esconde nas sombras das pessoas.",
+      "subtitulo": "Pokémon / Ghost-Poison Type",
+      "imagem": "./imagens/Gengar.png"
+    },
+    {
+      "id": 25,
+      "nome": "Eevee",
+      "raridade": "comum",
+      "destaque": false,
+      "poder": 60,
+      "descricao": "Um Pokémon geneticamente instável que pode evoluir de várias formas.",
+      "subtitulo": "Pokémon / Normal Type",
+      "imagem": "./imagens/Eevee.png"
+    },
+    {
+      "id": 26,
+      "nome": "Mewtwo",
+      "raridade": "lendaria",
+      "destaque": false,
+      "poder": 180,
+      "descricao": "Criado por manipulação genética, um dos Pokémons mais formidáveis.",
+      "subtitulo": "Pokémon / Psychic Type",
+      "imagem": "./imagens/Mewtwo.png"
+    },
+    {
+      "id": 27,
+      "nome": "Nobara Kugisaki",
+      "raridade": "comum",
+      "destaque": false,
+      "poder": 4000,
+      "descricao": "Ativando a técnica de Ressonância usando seus pregos e martelo.",
+      "subtitulo": "Jujutsu Kaisen / Jujutsu High Student",
+      "imagem": "./imagens/Nobara.png"
+    },
+    {
+      "id": 28,
+      "nome": "Toji Fushiguro",
+      "raridade": "lendaria",
+      "destaque": false,
+      "poder": 13800,
+      "descricao": "O Assassino de Feiticeiros Nascido sem energia amaldiçoada, portador da restrição celestial.",
+      "subtitulo": "Jujutsu Kaisen / Sorcerer Killer",
+      "imagem": "./imagens/Toji.png"
+    },
+    {
+      "id": 29,
+      "nome": "Boa Hancock",
+      "raridade": "epica",
+      "destaque": false,
+      "poder": 7800,
+      "descricao": "A Imperatriz Pirata petrificando inimigos com a Mero Mero no Mi através do seu raio de atração.",
+      "subtitulo": "Kuja Pirates / Former Shichibukai",
+      "imagem": "./imagens/Hancock.png"
+    }
+  ]
 }
