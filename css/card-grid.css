@@ -1,3 +1,7 @@
+.all-cards .section-title {
+  margin: 0 auto 64px;
+}
+
 .all-cards {
   background: radial-gradient(
     circle at center,
@@ -5,6 +9,11 @@
     #0f172a 45%,
     #020617 100%
   );
+  padding: 64px 0;
+}
+
+#card-grid {
+  overflow: visible !important;
 }
 
 #card-grid .card-img-top {
@@ -15,53 +24,23 @@
 }
 
 #card-grid .card {
+  width: 100%;
+  max-width: 300px;
   height: 100%;
-  max-width: 350px;
   margin: 0 auto;
   text-align: center;
-  background-color: var(--background-secondary-color);
   border-width: 4px;
+  border-style: solid;
+  text-decoration: none;
+  overflow: visible !important;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
   background: linear-gradient(
     to bottom right,
     var(--background-primary-color),
     var(--background-secondary-color)
   );
-}
-
-.card.lendaria {
-  border-color: #eab308;
-}
-
-.card.epica {
-  border-color: #a335ee;
-}
-
-.card.rara {
-  border-color: #0099ff;
-}
-
-.card.comum {
-  border-color: #525666;
-}
-
-.card.lendaria:hover {
-  transform: translateY(-5px); /* Opcional: faz a carta subir um pouco */
-  box-shadow: 0 0 20px 3px rgba(234, 179, 8, 0.6);
-}
-
-.card.epica:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 0 15px 2px rgba(163, 53, 238, 0.5);
-}
-
-.card.rara:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 0 12px 1px rgba(0, 153, 255, 0.5);
-}
-
-.card.comum:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 0 8px 1px rgba(82, 86, 102, 0.4);
 }
 
 #card-grid .card h5 {
@@ -72,28 +51,57 @@
   color: var(--text-secondary-color);
 }
 
-#card-grid {
-  padding: 64px 300px;
+.card.lendaria {
+  border-color: #eab308;
+}
+.card.epica {
+  border-color: #a335ee;
+}
+.card.rara {
+  border-color: #0099ff;
+}
+.card.comum {
+  border-color: #525666;
 }
 
-a {
-  text-decoration: none;
+.card.lendaria:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(234, 179, 8, 0.6);
 }
 
-@media (max-width: 1440px) {
-  #card-grid {
-    padding: 64px 100px;
+.card.epica:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(163, 53, 238, 0.5);
+}
+
+.card.rara:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 153, 255, 0.5);
+}
+
+.card.comum:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(82, 86, 102, 0.4);
+}
+
+@media (max-width: 850px) {
+  #card-grid .card {
+    max-width: 250px;
+    height: 300px;
   }
-}
 
-@media (max-width: 1024px) {
-  #card-grid {
-    padding: 64px 50px;
+  #card-grid .card h5 {
+    font-size: 1.1rem;
   }
-}
 
-@media (max-width: 768px) {
-  #card-grid {
-    padding: 64px 30px;
+  #card-grid .card p {
+    font-size: 0.85rem;
+  }
+
+  #card-grid .card-img-top {
+    padding: 6px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center top;
   }
 }

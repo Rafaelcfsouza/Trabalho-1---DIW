@@ -103,7 +103,7 @@
     {
       "id": 10,
       "nome": "Yuji Itadori",
-      "raridade": "rara",
+      "raridade": "epica",
       "destaque": false,
       "poder": 8500,
       "descricao": "Yuji concentrando energia amaldiçoada para desferir um Kokusen (Black Flash).",
@@ -173,7 +173,7 @@
     {
       "id": 17,
       "nome": "Killua Zoldyck",
-      "raridade": "rara",
+      "raridade": "epica",
       "destaque": false,
       "poder": 8500,
       "descricao": "Ativando a velocidade divina com a técnica Godspeed.",
@@ -183,7 +183,7 @@
     {
       "id": 18,
       "nome": "Hisoka Morow",
-      "raridade": "lendaria",
+      "raridade": "epica",
       "destaque": false,
       "poder": 11000,
       "descricao": "Manipulando sua aura com as propriedades elásticas da Bungee Gum.",
@@ -193,7 +193,7 @@
     {
       "id": 19,
       "nome": "Kurapika",
-      "raridade": "rara",
+      "raridade": "epica",
       "destaque": false,
       "poder": 7000,
       "descricao": "Com os Olhos Escarlates ativos, pronto para usar suas correntes de Nen.",
