@@ -1,0 +1,65 @@
+.all-cards {
+  background: radial-gradient(
+    circle at center,
+    #1e293b 0%,
+    #0f172a 45%,
+    #020617 100%
+  );
+}
+
+#card-grid .card-img-top {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  padding: 10px;
+}
+
+#card-grid .card {
+  height: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: var(--background-secondary-color);
+  border-width: 4px;
+  border-color: var(--background-secondary-color);
+  background: radial-gradient(
+    circle at center,
+    #1e293b 0%,
+    #0f172a 45%,
+    #020617 100%
+  );
+}
+
+#card-grid .card h5 {
+  color: var(--text-primary-color);
+}
+
+#card-grid .card p {
+  color: var(--text-secondary-color);
+}
+
+#card-grid {
+  padding: 64px 300px;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 1440px) {
+  #card-grid {
+    padding: 64px 100px;
+  }
+}
+
+@media (max-width: 1024px) {
+  #card-grid {
+    padding: 64px 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  #card-grid {
+    padding: 64px 30px;
+  }
+}

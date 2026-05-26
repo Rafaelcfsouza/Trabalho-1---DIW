@@ -18,7 +18,7 @@
       "poder": 12000,
       "descricao": "Carta do Zoro usando seu golpe daishinkan.",
       "subtitulo": "Straw Hat Pirates / Pirate Hunter",
-      "imagem": "./imagens/Zoro.png"
+      "imagem": "./imagens/ZoroCerto.png"
     },
     {
       "id": 2,
@@ -86,9 +86,9 @@
       "raridade": "lendaria",
       "destaque": false,
       "poder": 15000,
-      "descricao": "O feiticeiro Jujutsu mais forte, expandindo seu Vazio Infinito.",
+      "descricao": "O feiticeiro Jujutsu mais forte, usando seu vazio infinito (Purple Hollow).",
       "subtitulo": "Jujutsu Kaisen / Special Grade Sorcerer",
-      "imagem": "./imagens/Gojo.png"
+      "imagem": "./imagens/GojoDif.png"
     },
     {
       "id": 9,
@@ -279,6 +279,16 @@
       "descricao": "Ativando a técnica de Ressonância usando seus pregos e martelo.",
       "subtitulo": "Jujutsu Kaisen / Jujutsu High Student",
       "imagem": "./imagens/Nobara.png"
+    },
+    {
+      "id": 28,
+      "nome": "Toji Fushiguro",
+      "raridade": "lendaria",
+      "destaque": false,
+      "poder": 13800,
+      "descricao": "O Assassino de Feiticeiros Nascido sem energia amaldiçoada, portador da restrição celestial.",
+      "subtitulo": "Jujutsu Kaisen / Sorcerer Killer",
+      "imagem": "./imagens/Toji.png"
     }
   ]
 }
