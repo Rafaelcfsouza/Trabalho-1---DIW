@@ -18,10 +18,11 @@
 .raridade-item {
   text-align: center;
   width: 250px;
-  background-color: var(--background-secondary-color);
+  background-color: rgba(255, 255, 255, 0.027);
   border-radius: 16px;
   min-height: 116px;
   padding: 26px;
+  backdrop-filter: blur(100px);
 }
 
 .raridade-item h6 {
@@ -29,6 +30,22 @@
   padding: 5px 10px;
   border-radius: 16px;
   background-color: rgba(13, 17, 23, 0.85);
+}
+
+.raridade-item.comum {
+  border: 2px solid #525666;
+}
+
+.raridade-item.rara {
+  border: 2px solid #0099ff;
+}
+
+.raridade-item.epica {
+  border: 2px solid #a335ee;
+}
+
+.raridade-item.lendaria {
+  border: 2px solid #eab308;
 }
 
 .raridade-item.comum h6 {

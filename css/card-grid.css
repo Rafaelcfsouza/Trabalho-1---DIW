@@ -22,11 +22,10 @@
   background-color: var(--background-secondary-color);
   border-width: 4px;
   border-color: var(--background-secondary-color);
-  background: radial-gradient(
-    circle at center,
-    #1e293b 0%,
-    #0f172a 45%,
-    #020617 100%
+  background: linear-gradient(
+    to bottom right,
+    var(--background-primary-color),
+    var(--background-secondary-color)
   );
 }
 
