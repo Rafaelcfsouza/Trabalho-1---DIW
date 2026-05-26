@@ -10,6 +10,8 @@
     #020617 100%
   );
   padding: 64px 0;
+  border-bottom: 2px solid rgba(255, 69, 0, 0.5);
+  box-shadow: 0 4px 30px rgba(255, 69, 0, 0.15);
 }
 
 #card-grid {
