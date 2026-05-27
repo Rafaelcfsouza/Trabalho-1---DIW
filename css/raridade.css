@@ -18,10 +18,10 @@
 .raridade-item {
   text-align: center;
   width: 250px;
-  background-color: rgba(255, 255, 255, 0.027);
   border-radius: 16px;
   min-height: 116px;
   padding: 26px;
+  background-color: rgba(255, 255, 255, 0.027);
   backdrop-filter: blur(100px);
 }
 
