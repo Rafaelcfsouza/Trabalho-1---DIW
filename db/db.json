@@ -6,7 +6,8 @@
       "raridade": "lendaria",
       "destaque": true,
       "poder": 12000,
-      "descricao": "Carta do luffy em seu gear 5.",
+      "descricao": "Capitão dos Piratas do Chapéu de Palha e um dos Quatro Imperadores (Yonko). Usuário da Hito Hito no Mi, Modelo: Nika, Luffy busca se tornar o Rei dos Piratas. Seu Gear 5 representa o ápice de sua liberdade, permitindo-lhe lutar com as propriedades elásticas de um desenho animado, transformando a imaginação em realidade.",
+      "legenda": "Carta do luffy em seu gear 5.",
       "subtitulo": "Straw Hat Pirates / Yonko",
       "imagem": "./imagens/Luffy.png"
     },
@@ -16,7 +17,8 @@
       "raridade": "lendaria",
       "destaque": true,
       "poder": 12000,
-      "descricao": "Carta do Zoro usando seu golpe daishinkan.",
+      "descricao": "O primeiro membro a se juntar a Luffy e o temido 'Caçador de Piratas'. Zoro é um mestre espadachim que utiliza o Estilo de Três Espadas (Santoryu). Com uma determinação inabalável e lealdade cega ao seu capitão, ele treina incansavelmente para superar Mihawk e se tornar o maior espadachim do mundo.",
+      "legenda": "Carta do Zoro usando seu golpe daishinkan.",
       "subtitulo": "Straw Hat Pirates / Pirate Hunter",
       "imagem": "./imagens/ZoroCerto.png"
     },
@@ -26,7 +28,8 @@
       "raridade": "lendaria",
       "destaque": true,
       "poder": 12000,
-      "descricao": "Carta do Garp usando seu golpe Galaxy Impact.",
+      "descricao": "Lenda viva da Marinha, conhecido como 'O Herói' por seus feitos do passado, especialmente contra os Piratas Rocks. Garp é pai de Dragon e avô de Luffy. Apesar de não possuir os poderes de uma Akuma no Mi, sua força física pura e seu Haki do Armamento e do Conquistador são devastadores e temidos globalmente.",
+      "legenda": "Carta do Garp usando seu golpe Galaxy Impact.",
       "subtitulo": "Navy / The Hero",
       "imagem": "./imagens/Garp.png"
     },
@@ -36,7 +39,8 @@
       "raridade": "lendaria",
       "destaque": true,
       "poder": 12000,
-      "descricao": "Carta do Shanks usando todo seu haki.",
+      "descricao": "O carismático capitão dos Piratas do Ruivo e um dos Yonko. Shanks é o homem que inspirou Luffy a seguir a vida pirata e lhe entregou o icônico Chapéu de Palha. Ex-membro da tripulação de Gol D. Roger, ele é amplamente reconhecido como um dos usuários de Haki mais poderosos e refinados de toda a era pirata.",
+      "legenda": "Carta do Shanks usando todo seu haki.",
       "subtitulo": "Red Hair Pirates / Yonko",
       "imagem": "./imagens/Shanks.png"
     },
@@ -46,7 +50,8 @@
       "raridade": "lendaria",
       "destaque": true,
       "poder": 12000,
-      "descricao": "Carta do Naruto em seu modo Baryon.",
+      "descricao": "O herói da Vila da Folha e o Sétimo Hokage. Naruto superou uma infância de solidão como o Jinchuriki da Raposa de Nove Caudas (Kurama) para alcançar seu sonho. O Modo Baryon representa sua transformação mais poderosa e sacrificial, fundindo seu chakra ao de Kurama para gerar uma energia pura que drena a vida de seus oponentes.",
+      "legenda": "Carta do Naruto em seu modo Baryon.",
       "subtitulo": "Konoha / Seventh Hokage",
       "imagem": "./imagens/NarutoBaryon.png"
     },
@@ -56,7 +61,8 @@
       "raridade": "lendaria",
       "destaque": true,
       "poder": 12000,
-      "descricao": "Carta do Sasuke usando seu susano.",
+      "descricao": "O prodígio sobrevivente do clã Uchiha e o 'Hokage das Sombras'. Movido inicialmente pela vingança, Sasuke trilhou um caminho de escuridão antes de se redimir. Portador do Sharingan e do Rinnegan, ele domina o elemento relâmpago, chamas negras do Amaterasu e manifesta a armadura espiritual perfeita do Susanoo.",
+      "legenda": "Carta do Sasuke usando seu susano.",
       "subtitulo": "Konoha / Last Uchiha",
       "imagem": "./imagens/SasukeUchiha.png"
     },
@@ -66,7 +72,8 @@
       "raridade": "lendaria",
       "destaque": true,
       "poder": 310,
-      "descricao": "Carta do Pikachu VMAX.",
+      "descricao": "O ícone global do mundo Pokémon em sua forma mais colossal. Ao passar pelo fenômeno Gigantamax, Pikachu não apenas cresce a tamanhos titânicos, mas também acumula uma quantidade imensurável de eletricidade em sua cauda em formato de raio, transformando seus ataques elétricos em tempestades devastadoras.",
+      "legenda": "Carta do Pikachu VMAX.",
       "subtitulo": "Pokémon / Electric Type",
       "imagem": "./imagens/PikachuVMAX.png"
     },
@@ -76,7 +83,8 @@
       "raridade": "lendaria",
       "destaque": true,
       "poder": 330,
-      "descricao": "Carta do Charizard EX.",
+      "descricao": "Uma das evoluções mais imponentes e populares do tipo Fogo/Voador. Conhecido por seu orgulho e espírito de batalha, o fogo na ponta de sua cauda arde intensamente de acordo com sua força violentamente ativa. Como um Pokémon 'EX', ele representa uma versão de elite com poder de fogo capaz de derreter rochas sólidas.",
+      "legenda": "Carta do Charizard EX.",
       "subtitulo": "Pokémon / Fire Type",
       "imagem": "./imagens/CharizardEX.png"
     },
@@ -86,7 +94,8 @@
       "raridade": "lendaria",
       "destaque": false,
       "poder": 15000,
-      "descricao": "O feiticeiro Jujutsu mais forte, usando seu vazio infinito (Purple Hollow).",
+      "descricao": "O feiticeiro de Grau Especial considerado incontestavelmente o mais forte da era moderna. Herdeiro das técnicas 'Ilimitado' e dos 'Seis Olhos' do clã Gojo, ele consegue manipular o espaço ao seu redor, tornando-se intocável e obliterando maldições com feixes de gravidade como o Vermelho, Azul e o Vazio Roxo.",
+      "legenda": "O feiticeiro Jujutsu mais forte, usando seu vazio infinito (Purple Hollow).",
       "subtitulo": "Jujutsu Kaisen / Special Grade Sorcerer",
       "imagem": "./imagens/GojoDif.png"
     },
@@ -96,7 +105,8 @@
       "raridade": "lendaria",
       "destaque": true,
       "poder": 14500,
-      "descricao": "O Rei das Maldições manifestando seu Santuário Malevolente.",
+      "descricao": "O temido 'Rei das Maldições', um ser cruel e egoísta que aterrorizou os feiticeiros na Era de Ouro do Jujutsu (Heian) há mil anos. Fragmentado em 20 dedos amaldiçoados, ele desperta no corpo de Yuji Itadori. Domina técnicas de corte invisíveis (Desmantelar e Clivar) e a expansão de domínio 'Santuário Malevolente'.",
+      "legenda": "O Rei das Maldições manifestando seu Santuário Malevolente.",
       "subtitulo": "Jujutsu Kaisen / King of Curses",
       "imagem": "./imagens/Sukuna.png"
     },
@@ -106,7 +116,8 @@
       "raridade": "epica",
       "destaque": false,
       "poder": 8500,
-      "descricao": "Yuji concentrando energia amaldiçoada para desferir um Kokusen (Black Flash).",
+      "descricao": "Um estudante colegial com habilidades físicas sobre-humanas que teve sua vida virada do avesso ao engolir um dos dedos de Sukuna, tornando-se seu receptáculo. Guiado pelo desejo de dar uma 'morte digna' às pessoas, Yuji treina na Escola Jujutsu e se torna um mestre no combate corpo a corpo e no uso do Kokusen.",
+      "legenda": "Yuji concentrando energia amaldiçoada para desferir um Kokusen (Black Flash).",
       "subtitulo": "Jujutsu Kaisen / Jujutsu High Student",
       "imagem": "./imagens/Itadori.png"
     },
@@ -116,7 +127,8 @@
       "raridade": "rara",
       "destaque": false,
       "poder": 6000,
-      "descricao": "Invocando as Sombras Divinas com a técnica das Dez Sombras.",
+      "descricao": "Um calmo e estratégico estudante da Escola Jujutsu e prodígio do clã Zenin. Megumi herdou a raríssima 'Técnica das Dez Sombras', que o permite invocar Shikigamis a partir das sombras utilizando as mãos, incluindo os Cães Divinos e o indomável general Mahoraga, além de conseguir se esconder no próprio plano sombrio.",
+      "legenda": "Invocando as Sombras Divinas com a técnica das Dez Sombras.",
       "subtitulo": "Jujutsu Kaisen / Zenin Clan",
       "imagem": "./imagens/Megumi.png"
     },
@@ -126,7 +138,8 @@
       "raridade": "rara",
       "destaque": false,
       "poder": 9500,
-      "descricao": "Deku ativando o One For All: Full Cowl a 100%.",
+      "descricao": "Nascido sem superpoderes (Individualidade) em um mundo cheio deles, Izuku nunca desistiu do sonho de ser um herói. Sua coragem chamou a atenção de All Might, que o escolheu como sucessor do 'One For All'. Deku é um analista tático que aprendeu a canalizar essa força absurda por todo o corpo através do Full Cowl.",
+      "legenda": "Deku ativando o One For All: Full Cowl a 100%.",
       "subtitulo": "Boku no Hero / U.A. Student",
       "imagem": "./imagens/Deku.png"
     },
@@ -136,7 +149,8 @@
       "raridade": "lendaria",
       "destaque": true,
       "poder": 13000,
-      "descricao": "O Símbolo da Paz desferindo o lendário United States of Smash.",
+      "descricao": "O antigo Herói Número 1 e o eterno 'Símbolo da Paz'. Com seu sorriso inabalável, All Might salvou incontáveis vidas e manteve a criminalidade sob controle usando a força esmagadora do One For All. Mesmo com o corpo debilitado por ferimentos antigos, seu espírito de justiça permanece como um farol para a nova geração.",
+      "legenda": "O Símbolo da Paz desferindo o lendário United States of Smash.",
       "subtitulo": "Boku no Hero / Pro Hero",
       "imagem": "./imagens/AllMight.png"
     },
@@ -146,7 +160,8 @@
       "raridade": "rara",
       "destaque": false,
       "poder": 8800,
-      "descricao": "Disparando explosões massivas acumuladas em suas manoplas.",
+      "descricao": "Rival de infância de Deku e um dos estudantes mais talentosos da U.A. High. Dotado da individualidade 'Explosão', Bakugo consegue secretar suor semelhante à nitroglicerina de suas mãos e detoná-lo à vontade. Apesar de seu temperamento agressivo e orgulhoso, ele possui um instinto de vitória brilhante e o desejo de ser o maior.",
+      "legenda": "Disparando explosões massivas acumuladas em suas manoplas.",
       "subtitulo": "Boku no Hero / U.A. Student",
       "imagem": "./imagens/Bakugo.png"
     },
@@ -156,7 +171,8 @@
       "raridade": "rara",
       "destaque": false,
       "poder": 7500,
-      "descricao": "Dominando o equilíbrio perfeito entre o seu lado de fogo e gelo.",
+      "descricao": "Filho do herói Endeavor, Shoto entrou na U.A. por recomendação devido ao seu imenso talento. Sua individualidade 'Meio-Quente Meio-Frio' permite que ele gere gelo com o lado direito do corpo e fogo com o esquerdo. Após superar traumas familiares, ele aceitou ambos os lados para trilhar seu próprio caminho como herói.",
+      "legenda": "Dominando o equilíbrio perfeito entre o seu lado de fogo e gelo.",
       "subtitulo": "Boku no Hero / U.A. Student",
       "imagem": "./imagens/Todoroki.png"
     },
@@ -166,7 +182,8 @@
       "raridade": "rara",
       "destaque": false,
       "poder": 8000,
-      "descricao": "Concentrando toda a sua aura no devastador Jajanken: Pedra.",
+      "descricao": "Um jovem otimista e determinado da Ilha da Baleia que decide se tornar um Hunter para entender o que motivou seu pai a abandoná-lo pela profissão. Gon possui sentidos aguçados e uma conexão profunda com a natureza. Como um usuário de Nen do tipo Intensificação, ele desenvolveu o Jajanken, focando golpes devastadores de curto alcance.",
+      "legenda": "Concentrando toda a sua aura no devastador Jajanken: Pedra.",
       "subtitulo": "Hunter x Hunter / Rookie Hunter",
       "imagem": "./imagens/Gon.png"
     },
@@ -176,7 +193,8 @@
       "raridade": "epica",
       "destaque": false,
       "poder": 8500,
-      "descricao": "Ativando a velocidade divina com a técnica Godspeed.",
+      "descricao": "O herdeiro prodígio da infame família de assassinos Zoldyck. Fugindo de seu destino sombrio, ele conhece Gon durante o Exame Hunter e se torna seu melhor amigo. Killua passou por um treinamento de tortura na infância que o tornou imune a venenos e eletricidade, permitindo-lhe transformar sua própria aura Nen em correntes elétricas.",
+      "legenda": "Ativando a velocidade divina com a técnica Godspeed.",
       "subtitulo": "Hunter x Hunter / Assassin Prototype",
       "imagem": "./imagens/Killua.png"
     },
@@ -186,7 +204,8 @@
       "raridade": "epica",
       "destaque": false,
       "poder": 11000,
-      "descricao": "Manipulando sua aura com as propriedades elásticas da Bungee Gum.",
+      "descricao": "Um enigmático e perigoso mágico sociopata que vive apenas pelo prazer de lutar contra oponentes fortes. Hisoka demonstra um interesse obsessivo pelo crescimento de Gon e Killua. Usuário de Nen de Transmutação, sua habilidade 'Bungee Gum' confere à sua aura as propriedades elásticas da borracha e adesivas do chiclete.",
+      "legenda": "Manipulando sua aura com as propriedades elásticas da Bungee Gum.",
       "subtitulo": "Hunter x Hunter / Phantom Troupe #4",
       "imagem": "./imagens/Hisoka.png"
     },
@@ -196,7 +215,8 @@
       "raridade": "epica",
       "destaque": false,
       "poder": 7000,
-      "descricao": "Com os Olhos Escarlates ativos, pronto para usar suas correntes de Nen.",
+      "descricao": "O último sobrevivente do clã Kurta, movido por um desejo ardente de vingar seu povo e recuperar os Olhos Escarlates roubados pela Trupe Fantasma. Kurapika usa correntes materializadas por seu Nen. Quando seus olhos brilham em escarlate, ele entra no modo 'Emperor Time', permitindo-lhe usar todas as vertentes do Nen com 100% de eficiência.",
+      "legenda": "Com os Olhos Escarlates ativos, pronto para usar suas correntes de Nen.",
       "subtitulo": "Hunter x Hunter / Blacklist Hunter",
       "imagem": "./imagens/Kurapika.png"
     },
@@ -206,7 +226,8 @@
       "raridade": "comum",
       "destaque": false,
       "poder": 2500,
-      "descricao": "O médico dos Chapéu de Palha em sua forma Brain Point.",
+      "descricao": "Uma rena de nariz azul que comeu a Hito Hito no Mi (Fruta do Humano), ganhando intelecto e a habilidade de falar. Chopper é o brilhante e compassivo médico dos Piratas do Chapéu de Palha. Utilizando as pílulas Rumble Ball, criadas por ele mesmo, consegue alterar sua estrutura corporal em várias formas de combate e defesa.",
+      "legenda": "O médico dos Chapéu de Palha em sua forma Brain Point.",
       "subtitulo": "Straw Hat Pirates / Doctor",
       "imagem": "./imagens/Chopper.png"
     },
@@ -216,7 +237,8 @@
       "raridade": "comum",
       "destaque": false,
       "poder": 2000,
-      "descricao": "Mirando com precisão milimétrica usando seu estilingue Kabuto.",
+      "descricao": "O atirador dos Chapéus de Palha, conhecido inicialmente por suas mentiras crônicas e covardia. Apesar do medo constante, Usopp possui uma pontaria impecável e um coração heróico. Ao longo da jornada, ele se tornou um inventor talentoso, utilizando sementes de plantas pop greens em seu estilingue gigante Kabuto.",
+      "legenda": "Mirando com precisão milimétrica usando seu estilingue Kabuto.",
       "subtitulo": "Straw Hat Pirates / Sniper",
       "imagem": "./imagens/Usopp.png"
     },
@@ -226,7 +248,8 @@
       "raridade": "rara",
       "destaque": false,
       "poder": 8200,
-      "descricao": "O Ninja Copiador preparando seu famoso relâmpago, o Chidori.",
+      "descricao": "O famoso 'Ninja Copiador' de Konoha e líder do Time 7. Kakashi ganhou notoriedade global ao usar o Sharingan (presenteado por seu amigo Obito) para copiar mais de mil jutsus diferentes. É um estrategista genial, ex-capitão da ANBU e criador do Chidori, tornando-se mais tarde o Sexto Hokage.",
+      "legenda": "O Ninja Copiador preparando seu famoso relâmpago, o Chidori.",
       "subtitulo": "Konoha / Copy Ninja",
       "imagem": "./imagens/Kakashi.png"
     },
@@ -236,7 +259,8 @@
       "raridade": "comum",
       "destaque": false,
       "poder": 5500,
-      "descricao": "Concentrando força monstruosa e chakra médico em seus punhos.",
+      "descricao": "Integrante do Time 7 original, Sakura evoluiu de uma ninja insegura para a maior kunoichi médica do mundo sob a tutela da Quinta Hokage, Tsunade. Ao dominar o controle perfeito de chakra, ela desenvolveu uma força física monstruosa capaz de quebrar o solo e armazenou energia por anos para liberar o Selo da Força de uma Centena.",
+      "legenda": "Concentrando força monstruosa e chakra médico em seus punhos.",
       "subtitulo": "Konoha / Medical Ninja",
       "imagem": "./imagens/Sakura.png"
     },
@@ -246,7 +270,8 @@
       "raridade": "rara",
       "destaque": false,
       "poder": 130,
-      "descricao": "Um Pokémon travesso que se esconde nas sombras das pessoas.",
+      "descricao": "A evolução final de Gastly, pertencente à primeira geração de Pokémon. Gengar é uma criatura das sombras de natureza travessa e por vezes maliciosa, que se diverte assustando viajantes ao imitar suas sombras. Apesar disso, em batalha é um aliado formidável devido à sua versatilidade com golpes especiais e gasosos.",
+      "legenda": "Um Pokémon travesso que se esconde nas sombras das pessoas.",
       "subtitulo": "Pokémon / Ghost-Poison Type",
       "imagem": "./imagens/Gengar.png"
     },
@@ -256,7 +281,8 @@
       "raridade": "comum",
       "destaque": false,
       "poder": 60,
-      "descricao": "Um Pokémon geneticamente instável que pode evoluir de várias formas.",
+      "descricao": "Um Pokémon dócil e quadrúpede do tipo Normal, famoso por sua estrutura genética única e instável. Essa anomalia permite que Eevee evolua para oito formas diferentes (conhecidas como 'Eeveelutions') dependendo do ambiente, pedras elementais ou do nível de amizade com seu treinador, simbolizando o potencial infinito.",
+      "legenda": "Um Pokémon geneticamente instável que pode evoluir de várias formas.",
       "subtitulo": "Pokémon / Normal Type",
       "imagem": "./imagens/Eevee.png"
     },
@@ -266,7 +292,8 @@
       "raridade": "lendaria",
       "destaque": false,
       "poder": 180,
-      "descricao": "Criado por manipulação genética, um dos Pokémons mais formidáveis.",
+      "descricao": "Um Pokémon Lendário criado em laboratório a partir do DNA modificado do mítico Mew. Mewtwo foi concebido para ser a arma de combate definitiva, resultando em poderes psíquicos avassaladores e telecinéticos sem paralelos. Sua história é marcada por crises existenciais e ressentimento contra a ganância humana.",
+      "legenda": "Criado por manipulação genética, um dos Pokémons mais formidáveis.",
       "subtitulo": "Pokémon / Psychic Type",
       "imagem": "./imagens/Mewtwo.png"
     },
@@ -276,7 +303,8 @@
       "raridade": "comum",
       "destaque": false,
       "poder": 4000,
-      "descricao": "Ativando a técnica de Ressonância usando seus pregos e martelo.",
+      "descricao": "Uma estudante de primeiro ano da Escola Jujutsu de Tóquio, vinda do interior. Nobara é confiante, vaidosa e incrivelmente durona em combate. Ela utiliza a 'Técnica da Boneca de Palha', canalizando sua energia amaldiçoada através de pregos, um martelo e uma boneca vudu para atacar oponentes à distância ou destruir suas almas.",
+      "legenda": "Ativando a técnica de Ressonância usando seus pregos e martelo.",
       "subtitulo": "Jujutsu Kaisen / Jujutsu High Student",
       "imagem": "./imagens/Nobara.png"
     },
@@ -286,7 +314,8 @@
       "raridade": "lendaria",
       "destaque": false,
       "poder": 13800,
-      "descricao": "O Assassino de Feiticeiros Nascido sem energia amaldiçoada, portador da restrição celestial.",
+      "descricao": "Pai de Megumi e ex-membro do clã Zenin, conhecido como o 'Assassino de Feiticeiros'. Nascido completamente sem energia amaldiçoada devido a uma Restrição Celestial, Toji recebeu em troca sentidos aguçados e capacidades físicas divinas que superavam qualquer feiticeiro. Ele usava um arsenal de armas amaldiçoadas guardadas em uma maldição inventário.",
+      "legenda": "O Assassino de Feiticeiros Nascido sem energia amaldiçoada, portador da restrição celestial.",
       "subtitulo": "Jujutsu Kaisen / Sorcerer Killer",
       "imagem": "./imagens/Toji.png"
     },
@@ -296,7 +325,8 @@
       "raridade": "epica",
       "destaque": false,
       "poder": 7800,
-      "descricao": "A Imperatriz Pirata petrificando inimigos com a Mero Mero no Mi através do seu raio de atração.",
+      "descricao": "A Capitã das Piratas Kuja, imperatriz de Amazon Lily e ex-membro dos Shichibukai. Considerada a mulher mais linda do mundo, Hancock comeu a Mero Mero no Mi, o que lhe permite transformar instantaneamente em pedra qualquer pessoa que nutra pensamentos de luxúria ou admiração por ela. É profundamente apaixonada por Luffy.",
+      "legenda": "A Imperatriz Pirata petrificando inimigos com a Mero Mero no Mi através do seu raio de atração.",
       "subtitulo": "Kuja Pirates / Former Shichibukai",
       "imagem": "./imagens/Hancock.png"
     }
