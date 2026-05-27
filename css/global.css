@@ -5,6 +5,13 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Cabin";
+  src: url(../fontes/Cabin-VariableFont_wdth,wght.ttf);
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --background-primary-color: #0f172a;
   --background-secondary-color: #1e293b;
@@ -29,6 +36,7 @@ body {
     #0f172a 45%,
     #020617 100%
   );
+  font-family: "Cabin";
 }
 
 .section-title {

@@ -38,12 +38,12 @@ const detalhes = {
     exibirDetalhes(carta, inner){
 
      const item = document.createElement('div')
-        item.className = 'row g-0'
+        item.className = 'row g-4'  
         item.innerHTML = `
-    <div class="col-md-4">
-      <img src=".${carta.imagem}" class="img-fluid rounded-start" alt="Imagem da carta exibida em detalhes">
+    <div class="col-11 col-sm-9 col-md-4 mx-auto">
+      <img src=".${carta.imagem}" class="img-fluid img-${carta.raridade}" alt="Imagem da carta exibida em detalhes">
     </div>
-    <div class="col-md-8">
+    <div class="col-md-7">
       <div class="card-body">
         <h5 class="card-title">${carta.nome}</h5>
         <h6 class="card-title">${carta.subtitulo}</h6>
