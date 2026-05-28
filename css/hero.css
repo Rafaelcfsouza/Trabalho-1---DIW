@@ -9,6 +9,10 @@
   overflow: hidden;
 }
 
+.hero-section .section-title {
+  margin-top: 64px;
+}
+
 .meuCarrossel {
   width: 100%;
   max-width: 1200px;

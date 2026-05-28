@@ -23,7 +23,7 @@
   min-height: 116px;
   padding: 26px;
   background-color: rgba(255, 255, 255, 0.027);
-  backdrop-filter: blur(100px);
+  backdrop-filter: blur(10px);
 }
 
 .raridade-item h6 {
