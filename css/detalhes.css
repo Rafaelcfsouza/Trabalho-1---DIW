@@ -12,31 +12,34 @@
   margin: 0 auto;
   max-width: 800px;
   border-radius: 16px;
-  background-color: rgba(255, 255, 255, 0.027);
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(12px);
+  background: radial-gradient(
+    circle at center,
+    #1e293b 0%,
+    #0f172a 45%,
+    #020617 100%
+  );
   padding: 20px;
-  border-top: 2px solid rgba(255, 255, 255, 0.4);
-  border-left: 2px solid rgba(255, 255, 255, 0.3);
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.089);
-  color: white;
+  border-top: 2px solid rgba(255, 69, 0, 0.9);
+  border-left: 2px solid rgba(255, 69, 0, 0.6);
+  box-shadow: 0px 0px 15px rgba(255, 69, 0, 0.4);
+  color: var(--text-primary-color);
   width: 100%;
 }
 
-.img-lendaria {
+.img-Lendaria {
   background-color: rgba(234, 179, 8, 0.05);
   backdrop-filter: blur(20px);
   border-radius: 16px;
   padding: 2px;
-  /* Borda superior e esquerda super intensas */
   border-top: 2px solid rgba(234, 179, 8, 0.9);
   border-left: 2px solid rgba(234, 179, 8, 0.6);
-  /* Brilho neon duplo: um sutil ao redor e um forte concentrado */
   box-shadow:
     0 0 15px rgba(234, 179, 8, 0.4),
     0 0 5px rgba(234, 179, 8, 0.6);
 }
 
-.img-epica {
+.img-Epica {
   background-color: rgba(163, 53, 238, 0.05);
   backdrop-filter: blur(20px);
   border-radius: 16px;
@@ -48,7 +51,7 @@
     0 0 5px rgba(163, 53, 238, 0.6);
 }
 
-.img-rara {
+.img-Rara {
   background-color: rgba(0, 153, 255, 0.05);
   backdrop-filter: blur(20px);
   border-radius: 16px;
@@ -60,7 +63,7 @@
     0 0 5px rgba(0, 153, 255, 0.6);
 }
 
-.img-comum {
+.img-Comum {
   background-color: rgba(82, 86, 102, 0.1);
   backdrop-filter: blur(20px);
   border-radius: 16px;
@@ -70,14 +73,49 @@
   box-shadow: 0 0 12px rgba(82, 86, 102, 0.3);
 }
 
+.informacoes-conteudo .card-body {
+  background-color: rgba(255, 255, 255, 0.027);
+  backdrop-filter: blur(100px);
+  border-radius: 16px;
+}
+
+.informacoes-conteudo .card-body.Lendaria {
+  border-top: 2px solid rgba(234, 179, 8, 0.9);
+  border-left: 2px solid rgba(234, 179, 8, 0.6);
+  box-shadow:
+    0 0 15px rgba(234, 179, 8, 0.4),
+    0 0 5px rgba(234, 179, 8, 0.6);
+}
+.informacoes-conteudo .card-body.Epica {
+  border-top: 2px solid rgba(163, 53, 238, 0.9);
+  border-left: 2px solid rgba(163, 53, 238, 0.6);
+  box-shadow:
+    0 0 15px rgba(163, 53, 238, 0.4),
+    0 0 5px rgba(163, 53, 238, 0.6);
+}
+.informacoes-conteudo .card-body.Rara {
+  border-top: 2px solid rgba(0, 153, 255, 0.9);
+  border-left: 2px solid rgba(0, 153, 255, 0.6);
+  box-shadow:
+    0 0 15px rgba(0, 153, 255, 0.4),
+    0 0 5px rgba(0, 153, 255, 0.6);
+}
+.informacoes-conteudo .card-body.Comum {
+  border-top: 2px solid rgba(82, 86, 102, 0.8);
+  border-left: 2px solid rgba(82, 86, 102, 0.5);
+  box-shadow: 0 0 12px rgba(82, 86, 102, 0.3);
+}
+
+.informacoes-conteudo .card-body .card-text.descricao {
+  color: var(--text-secondary-color);
+}
+
 @media (max-width: 800px) {
-  /* Adiciona um espaço nas laterais da seção inteira para o card respirar */
   .informacoes-gerais {
     padding-left: 20px;
     padding-right: 20px;
   }
 
-  /* Ajuste opcional para a imagem não ficar colada no texto quando empilhar */
   .informacoes-conteudo .col-6 {
     margin-bottom: 15px;
   }

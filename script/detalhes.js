@@ -44,12 +44,12 @@ const detalhes = {
       <img src=".${carta.imagem}" class="img-fluid img-${carta.raridade}" alt="Imagem da carta exibida em detalhes">
     </div>
     <div class="col-md-7">
-      <div class="card-body">
+      <div class="card-body ${carta.raridade}">
         <h5 class="card-title">${carta.nome}</h5>
         <h6 class="card-title">${carta.subtitulo}</h6>
         <p class="card-text">Raridade: ${carta.raridade}</p>
         <p class="card-text">Poder: ${carta.poder}</p>
-        <p class="card-text">${carta.descricao}</p>
+        <p class="card-text descricao">${carta.descricao}</p>
       </div>
     </div>
     `

@@ -46,6 +46,56 @@
   display: block;
 }
 
+.imagem-carta-pura.Lendaria {
+  width: 100%;
+  height: 400px;
+  border-radius: 16px;
+  padding: 2px;
+  border-top: 2px solid rgba(234, 179, 8, 0.9);
+  border-left: 2px solid rgba(234, 179, 8, 0.6);
+  box-shadow:
+    0 0 15px rgba(234, 179, 8, 0.4),
+    0 0 5px rgba(234, 179, 8, 0.6);
+  display: block;
+}
+
+.imagem-carta-pura.Epica {
+  width: 100%;
+  height: 400px;
+  border-radius: 16px;
+  padding: 2px;
+  border-top: 2px solid rgba(163, 53, 238, 0.9);
+  border-left: 2px solid rgba(163, 53, 238, 0.6);
+  box-shadow:
+    0 0 15px rgba(163, 53, 238, 0.4),
+    0 0 5px rgba(163, 53, 238, 0.6);
+  display: block;
+}
+
+.imagem-carta-pura.Rara {
+  width: 100%;
+  height: 400px;
+  border-radius: 16px;
+  padding: 2px;
+  border-top: 2px solid rgba(0, 153, 255, 0.9);
+  border-left: 2px solid rgba(0, 153, 255, 0.6);
+  box-shadow:
+    0 0 15px rgba(0, 153, 255, 0.4),
+    0 0 5px rgba(0, 153, 255, 0.6);
+  display: block;
+}
+
+.imagem-carta-Comum {
+  width: 100%;
+  height: 400px;
+  border-radius: 16px;
+  padding: 2px;
+  border-top: 2px solid rgba(82, 86, 102, 0.8);
+  border-left: 2px solid rgba(82, 86, 102, 0.5);
+  box-shadow: 0 0 12px rgba(82, 86, 102, 0.3);
+  display: block;
+}
+
 .info-carta-externa {
   margin-top: 15px;
   text-align: center;
@@ -131,43 +181,43 @@
   background-color: rgba(13, 17, 23, 0.85);
 }
 
-.raridade-comum h6 {
+.raridade-Comum h6 {
   border: 2px solid #525666;
   color: #8fa0ba !important;
 }
-.raridade-comum::before,
-.raridade-comum::after {
+.raridade-Comum::before,
+.raridade-Comum::after {
   background-color: #525666;
 }
 
-.raridade-raro h6 {
+.raridade-Rara h6 {
   border: 2px solid #0099ff;
   color: #38bdf8 !important;
 }
-.raridade-raro::before,
-.raridade-raro::after {
+.raridade-Rara::before,
+.raridade-Rara::after {
   background-color: #0099ff;
 }
 
-.raridade-epica h6,
-.raridade-epica h6 {
+.raridade-Epica h6,
+.raridade-Epica h6 {
   border: 2px solid #a335ee;
   color: #c084fc !important;
 }
 
-.raridade-epica::before,
-.raridade-epica::after {
+.raridade-Epica::before,
+.raridade-Epica::after {
   background-color: #a335ee;
 }
 
-.raridade-lendaria h6,
-.raridade-lendaria h6 {
+.raridade-Lendaria h6,
+.raridade-Lendaria h6 {
   border: 2px solid #eab308;
   color: #eab308 !important;
 }
 
-.raridade-lendaria::before,
-.raridade-lendaria::after {
+.raridade-Lendaria::before,
+.raridade-Lendaria::after {
   background-color: #eab308;
 }
 
@@ -204,13 +254,32 @@
   border-radius: 32px;
 }
 
-.swiper-slide-active .card-wrapper:hover .imagem-carta-pura {
+.swiper-slide-active .card-wrapper:hover .imagem-carta-pura.Lendaria {
   transform: rotateY(10deg) rotateX(4deg) translateY(-10px) scale(1.05);
-
   box-shadow:
-    0 0 15px rgba(255, 69, 0, 0.5),
-    0 0 30px rgba(255, 69, 0, 0.3),
-    0 0 60px rgba(255, 215, 0, 0.35);
+    0 0 15px rgba(234, 179, 8),
+    0 0 5px rgba(234, 179, 8, 0.6);
+}
+
+.swiper-slide-active .card-wrapper:hover .imagem-carta-pura.Epica {
+  transform: rotateY(10deg) rotateX(4deg) translateY(-10px) scale(1.05);
+  box-shadow:
+    0 0 15px rgba(163, 53, 238),
+    0 0 5px rgba(163, 53, 238, 0.6);
+}
+
+.swiper-slide-active .card-wrapper:hover .imagem-carta-pura.Rara {
+  transform: rotateY(10deg) rotateX(4deg) translateY(-10px) scale(1.05);
+  box-shadow:
+    0 0 15px rgba(0, 153, 255),
+    0 0 5px rgba(0, 153, 255, 0.6);
+}
+
+.swiper-slide-active .card-wrapper:hover .imagem-carta-pura.Comum {
+  transform: rotateY(10deg) rotateX(4deg) translateY(-10px) scale(1.05);
+  box-shadow:
+    0 0 15px rgba(163, 53, 238),
+    0 0 5px rgba(163, 53, 238, 0.6);
 }
 
 .swiper-slide-active .info-carta-externa {

@@ -12,7 +12,7 @@ const grid = {
         item.className = 'col d-flex justify-content-center'
         item.innerHTML = `
         <a href="./pages/detalhes.html?id=${carta.id || carta.nome}" class="card h-100 ${carta.raridade}">
-            <img src="${carta.imagem}" class="card-img-top" alt="Carta colecionavel do personagem ${carta.nome}">
+            <img src="${carta.imagem}" class="card-img-top ${carta.raridade}" alt="Carta colecionavel do personagem ${carta.nome}">
             <div class="card-body">
                 <h5 class="card-title">${carta.nome}</h5>
                 <p class="card-text">${carta.legenda}</p>
