@@ -221,28 +221,6 @@
       "imagem": "./imagens/Kurapika.png"
     },
     {
-      "id": 20,
-      "nome": "Tony Tony Chopper",
-      "raridade": "Comum",
-      "destaque": false,
-      "poder": 2500,
-      "descricao": "Uma rena de nariz azul que comeu a Hito Hito no Mi (Fruta do Humano), ganhando intelecto e a habilidade de falar. Chopper é o brilhante e compassivo médico dos Piratas do Chapéu de Palha. Utilizando as pílulas Rumble Ball, criadas por ele mesmo, consegue alterar sua estrutura corporal em várias formas de combate e defesa.",
-      "legenda": "O médico dos Chapéu de Palha em sua forma Brain Point.",
-      "subtitulo": "Straw Hat Pirates / Doctor",
-      "imagem": "./imagens/Chopper.png"
-    },
-    {
-      "id": 21,
-      "nome": "Usopp",
-      "raridade": "Comum",
-      "destaque": false,
-      "poder": 2000,
-      "descricao": "O atirador dos Chapéus de Palha, conhecido inicialmente por suas mentiras crônicas e covardia. Apesar do medo constante, Usopp possui uma pontaria impecável e um coração heróico. Ao longo da jornada, ele se tornou um inventor talentoso, utilizando sementes de plantas pop greens em seu estilingue gigante Kabuto.",
-      "legenda": "Mirando com precisão milimétrica usando seu estilingue Kabuto.",
-      "subtitulo": "Straw Hat Pirates / Sniper",
-      "imagem": "./imagens/Usopp.png"
-    },
-    {
       "id": 22,
       "nome": "Kakashi Hatake",
       "raridade": "Rara",
@@ -265,28 +243,6 @@
       "imagem": "./imagens/Sakura.png"
     },
     {
-      "id": 24,
-      "nome": "Gengar",
-      "raridade": "Rara",
-      "destaque": false,
-      "poder": 130,
-      "descricao": "A evolução final de Gastly, pertencente à primeira geração de Pokémon. Gengar é uma criatura das sombras de natureza travessa e por vezes maliciosa, que se diverte assustando viajantes ao imitar suas sombras. Apesar disso, em batalha é um aliado formidável devido à sua versatilidade com golpes especiais e gasosos.",
-      "legenda": "Um Pokémon travesso que se esconde nas sombras das pessoas.",
-      "subtitulo": "Pokémon / Ghost-Poison Type",
-      "imagem": "./imagens/Gengar.png"
-    },
-    {
-      "id": 25,
-      "nome": "Eevee",
-      "raridade": "Comum",
-      "destaque": false,
-      "poder": 60,
-      "descricao": "Um Pokémon dócil e quadrúpede do tipo Normal, famoso por sua estrutura genética única e instável. Essa anomalia permite que Eevee evolua para oito formas diferentes (conhecidas como 'Eeveelutions') dependendo do ambiente, pedras elementais ou do nível de amizade com seu treinador, simbolizando o potencial infinito.",
-      "legenda": "Um Pokémon geneticamente instável que pode evoluir de várias formas.",
-      "subtitulo": "Pokémon / Normal Type",
-      "imagem": "./imagens/Eevee.png"
-    },
-    {
       "id": 26,
       "nome": "Mewtwo",
       "raridade": "Lendaria",
@@ -296,17 +252,6 @@
       "legenda": "Criado por manipulação genética, um dos Pokémons mais formidáveis.",
       "subtitulo": "Pokémon / Psychic Type",
       "imagem": "./imagens/Mewtwo.png"
-    },
-    {
-      "id": 27,
-      "nome": "Nobara Kugisaki",
-      "raridade": "Comum",
-      "destaque": false,
-      "poder": 4000,
-      "descricao": "Uma estudante de primeiro ano da Escola Jujutsu de Tóquio, vinda do interior. Nobara é confiante, vaidosa e incrivelmente durona em combate. Ela utiliza a 'Técnica da Boneca de Palha', canalizando sua energia amaldiçoada através de pregos, um martelo e uma boneca vudu para atacar oponentes à distância ou destruir suas almas.",
-      "legenda": "Ativando a técnica de Ressonância usando seus pregos e martelo.",
-      "subtitulo": "Jujutsu Kaisen / Jujutsu High Student",
-      "imagem": "./imagens/Nobara.png"
     },
     {
       "id": 28,
@@ -328,15 +273,15 @@
       "descricao": "A Capitã das Piratas Kuja, imperatriz de Amazon Lily e ex-membro dos Shichibukai. Considerada a mulher mais linda do mundo, Hancock comeu a Mero Mero no Mi, o que lhe permite transformar instantaneamente em pedra qualquer pessoa que nutra pensamentos de luxúria ou admiração por ela. É profundamente apaixonada por Luffy.",
       "legenda": "A Imperatriz Pirata petrificando inimigos com a Mero Mero no Mi através do seu raio de atração.",
       "subtitulo": "Kuja Pirates / Former Shichibukai",
-      "imagem": "./imagens/Hancock.png"
+      "imagem": "./imagens/BoaHancock.png"
     }
   ],
 
   "habilidades": [
-    { "id": 1, "cartaId": 0, "nome": "Gomu Gomu no Bajrang Gun", "descricao": "Punho colossal do tamanho de uma ilha revestido com Haki do Conquistador Avançado.", "imagem": "./imagens/habilidades/bajrang_gun.png" },
-    { "id": 2, "cartaId": 0, "nome": "Gomu Gomu no Dawn Cymbal", "descricao": "Luffy esmaga oponentes poderosos entre as mãos como se fossem pratos de bateria musicais.", "imagem": "./imagens/habilidades/dawn_cymbal.png" },
-    { "id": 3, "cartaId": 0, "nome": "Mundo de Borracha Toon", "descricao": "Transforma o solo e a matéria ao redor em borracha elástica maleável de desenho animado.", "imagem": "./imagens/habilidades/borracha_chao.png" },
-    { "id": 4, "cartaId": 0, "nome": "Tambores da Libertação", "descricao": "Batimentos cardíacos rítmicos que restauram totalmente a sua energia física e liberam liberdade pura.", "imagem": "./imagens/habilidades/tambor.png" },
+    { "id": 1, "cartaId": 0, "nome": "Gomu Gomu no Bajrang Gun", "descricao": "Punho colossal do tamanho de uma ilha revestido com Haki do Conquistador Avançado.", "imagem": "./imagens/luffyBajrang.jpg" },
+    { "id": 2, "cartaId": 0, "nome": "Gomu Gomu no Dawn Cymbal", "descricao": "Luffy esmaga oponentes poderosos entre as mãos como se fossem pratos de bateria musicais.", "imagem": "./imagens/luffyDawnCymbal.jpg" },
+    { "id": 3, "cartaId": 0, "nome": "Toon Force", "descricao": "Transforma o solo e a matéria ao redor em borracha elástica maleável de desenho animado.", "imagem": "./imagens/luffyToon.jpg" },
+    { "id": 4, "cartaId": 0, "nome": "Tambores da Libertação", "descricao": "Batimentos cardíacos rítmicos que restauram totalmente a sua energia física e liberam liberdade pura.", "imagem": "./imagens/luffyTambores.jpg" },
 
     { "id": 5, "cartaId": 1, "nome": "Asura", "descricao": "Arremesso frontal veloz desferindo cortes circulares massivos capazes de cortar rocha continental.", "imagem": "./imagens/Asura.jpg" },
     { "id": 6, "cartaId": 1, "nome": "Purgatorio Onigiri", "descricao": "Um avassalador corte vertical de uma espada executado com pura aura de intimidação assassina.", "imagem": "./imagens/purgatorioOnigiri.jpg" },
@@ -347,20 +292,20 @@
     { "id": 10, "cartaId": 2, "nome": "Galaxy Divide", "descricao": "Ataque concentrado com o punho que racha e divide montanhas ou ilhas inteiras ao meio.", "imagem": "./imagens/GalaxyDivide.jpg" },
     { "id": 12, "cartaId": 2, "nome": "Arremesso de Balas Titânicas", "descricao": "Lança projéteis de artilharia massivos com as próprias mãos em velocidade superior à de canhões.", "imagem": "./imagens/garpBalaCanhao.jpg" },
 
-    { "id": 13, "cartaId": 3, "nome": "Kamusari (Divine Departure)", "descricao": "Um poderoso corte horizontal à distância carregado de relâmpagos de Haki do Conquistador.", "imagem": "./imagens/habilidades/kamusari.png" },
-    { "id": 14, "cartaId": 3, "nome": "Assassino de Haki da Observação", "descricao": "Técnica passiva que oculta a própria presença de Shanks e impede os oponentes de preverem o futuro.", "imagem": "./imagens/habilidades/matador_obs.png" },
-    { "id": 15, "cartaId": 3, "nome": "Haoshoku Haki de Longo Alcance", "descricao": "Dispara rajadas de intenção imperial a quilômetros de distância paralisando ou desmaiando alvos.", "imagem": "./imagens/habilidades/pressao.png" },
-    { "id": 16, "cartaId": 3, "nome": "Esgrima Mestre com Gryphon", "descricao": "Combate preciso e veloz utilizando sua renomada espada envolta em chamas de energia espiritual.", "imagem": "./imagens/habilidades/gryphon.png" },
+    { "id": 13, "cartaId": 3, "nome": "Kamusari (Divine Departure)", "descricao": "Um poderoso corte horizontal à distância carregado de relâmpagos de Haki do Conquistador.", "imagem": "./imagens/kamusari.jpg" },
+    { "id": 14, "cartaId": 3, "nome": "Assassino de Haki da Observação", "descricao": "Técnica passiva que oculta a própria presença de Shanks e impede os oponentes de preverem o futuro.", "imagem": "./imagens/shanksObservacao.jpg" },
+    { "id": 15, "cartaId": 3, "nome": "Haoshoku Haki de Longo Alcance", "descricao": "Dispara rajadas de intenção imperial a quilômetros de distância paralisando ou desmaiando alvos.", "imagem": "./imagens/shanksHaki.jpg" },
+    { "id": 16, "cartaId": 3, "nome": "Esgrima Mestre com Gryphon", "descricao": "Combate preciso e veloz utilizando sua renomada espada envolta em chamas de energia espiritual.", "imagem": "./imagens/shanksGryphon.jpg" },
 
-    { "id": 17, "cartaId": 4, "nome": "Dreno de Vida Molecular", "descricao": "Cada soco físico desferido reduz diretamente o tempo de vida e a energia vital do adversário.", "imagem": "./imagens/habilidades/decaimento.png" },
-    { "id": 18, "cartaId": 4, "nome": "Consumo de Essência de Kurama", "descricao": "Combustão nuclear de chakra que garante atributos físicos absolutos até que a energia se esgote.", "imagem": "./imagens/habilidades/fusao.png" },
-    { "id": 19, "cartaId": 4, "nome": "Braços de Chakra de Alta Densidade", "descricao": "Gera caudas de energia compactas que atuam autonomamente como escudos ou pinças velozes.", "imagem": "./imagens/habilidades/caudas.png" },
-    { "id": 20, "cartaId": 4, "nome": "Reflexos Supremas do Sétimo", "descricao": "Percepção de combate absoluta capaz de interceptar ataques físicos na velocidade da luz.", "imagem": "./imagens/habilidades/velocidade_baryon.png" },
+    { "id": 17, "cartaId": 4, "nome": "Dreno de Vida Molecular", "descricao": "Cada soco físico desferido reduz diretamente o tempo de vida e a energia vital do adversário.", "imagem": "./imagens/baryonAbsorve.jpg" },
+    { "id": 18, "cartaId": 4, "nome": "Consumo de Essência de Kurama", "descricao": "Combustão nuclear de chakra que garante atributos físicos absolutos até que a energia se esgote.", "imagem": "./imagens/narutoCombustao.jpg" },
+    { "id": 19, "cartaId": 4, "nome": "Braços de Chakra de Alta Densidade", "descricao": "Gera caudas de energia compactas que atuam autonomamente como escudos ou pinças velozes.", "imagem": "./imagens/narutoCauda.jpg" },
+    { "id": 20, "cartaId": 4, "nome": "Reflexos Supremas do Sétimo", "descricao": "Percepção de combate absoluta capaz de interceptar ataques físicos na velocidade da luz.", "imagem": "./imagens/baryonVelocidade.jpg" },
 
-    { "id": 21, "cartaId": 5, "nome": "Kotoamatsukami do Susanoo Perfect", "descricao": "Ataque cortante esmagador desferido pelas espadas gigantes do seu avatar de chakra.", "imagem": "./imagens/habilidades/susano_perfeito.png" },
-    { "id": 22, "cartaId": 5, "nome": "Amaterasu", "descricao": "Invoca chamas pretas inextinguíveis no ponto focal do seu olho esquerdo.", "imagem": "./imagens/habilidades/amaterasu.png" },
-    { "id": 23, "cartaId": 5, "nome": "Flecha de Indra", "descricao": "O ataque ofensivo supremo de Sasuke, disparando uma flecha de relâmpago puro do Susanoo.", "imagem": "./imagens/habilidades/flecha.png" },
-    { "id": 24, "cartaId": 5, "nome": "Amenotejikana", "descricao": "Manipulação do Rinnegan para trocar instantaneamente a sua posição espacial com objetos ou alvos.", "imagem": "./imagens/habilidades/troca.png" },
+    { "id": 21, "cartaId": 5, "nome": "Susanoo Perfeito", "descricao": "Consegue fazer o Susanoo perfeito com duas espadas de energia.", "imagem": "./imagens/susanoSasuke.jpg" },
+    { "id": 22, "cartaId": 5, "nome": "Amaterasu", "descricao": "Invoca chamas pretas inextinguíveis no ponto focal do seu olho esquerdo.", "imagem": "./imagens/amaterasu.jpg" },
+    { "id": 23, "cartaId": 5, "nome": "Flecha de Indra", "descricao": "O ataque ofensivo supremo de Sasuke, disparando uma flecha de relâmpago puro do Susanoo.", "imagem": "./imagens/sasukeFlecha.jpg" },
+    { "id": 24, "cartaId": 5, "nome": "Amenotejikana", "descricao": "Manipulação do Rinnegan para trocar instantaneamente a sua posição espacial com objetos ou alvos.", "imagem": "./imagens/sasukeTeletransporte.jpg" },
 
     { "id": 25, "cartaId": 6, "nome": "G-Max Voltralha", "descricao": "Ataque elétrico colossal Gigantamax que causa dano massivo e paralisa todos os oponentes.", "imagem": "./imagens/habilidades/voltralha.png" },
     { "id": 26, "cartaId": 6, "nome": "Tormenta de Raios de Giga", "descricao": "Acumula nuvens de tempestade estática que disparam choques contínuos a cada turno no campo.", "imagem": "./imagens/habilidades/estatica.png" },
@@ -373,7 +318,7 @@
     { "id": 32, "cartaId": 7, "nome": "Poder de Retaliação EX", "descricao": "Aumenta exponencialmente o dano dos ataques do tipo fogo quando a vida está baixa.", "imagem": "./imagens/habilidades/furia.png" },
 
     { "id": 33, "cartaId": 8, "nome": "Vazio Roxo (Purple Hollow)", "descricao": "Singularidade espacial gerada ao colidir a atração e a repulsão, apagando a matéria no caminho.", "imagem": "./imagens/purpleHollow.jpg" },
-    { "id": 34, "cartaId": 8, "nome": "Expansão de Domínio: Muryoukuusho", "descricao": "Enclausura o inimigo em um espaço onde mentes recebem informações infinitas, paralisando-as.", "imagem": "./imagens/habilidades/vazio.png" },
+    { "id": 34, "cartaId": 8, "nome": "Expansão de Domínio: Muryoukuusho", "descricao": "Enclausura o inimigo em um espaço onde mentes recebem informações infinitas, paralisando-as.", "imagem": "./imagens/gojoExpansao.jpg" },
     { "id": 35, "cartaId": 8, "nome": "Mugen (Infinito)", "descricao": "A barreira neutra que impede ataques físicos ou mágicos de tocarem o corpo de Gojo.", "imagem": "./imagens/Mugen.jpg" },
     { "id": 36, "cartaId": 8, "nome": "Técnica Reversa: Vermelho", "descricao": "Inversão da força do ilimitado que expele uma massiva onda de gravidade repulsiva.", "imagem": "./imagens/gojoRed.jpg" },
 
@@ -422,10 +367,10 @@
     { "id": 72, "cartaId": 17, "nome": "Garras de Assassino Zoldyck", "descricao": "Altera a biologia das mãos transformando as unhas em lâminas afiadas capazes de rasgar carne.", "imagem": "./imagens/habilidades/garras.png" },
     { "id": 73, "cartaId": 17, "nome": "Eco do Ritmo (Rhythm Echo)", "descricao": "Movimentação rápida ritmada que cria ilusões de ótica com clones de imagem residual.", "imagem": "./imagens/habilidades/rhythm.png" },
 
-    { "id": 74, "cartaId": 18, "nome": "Bungee Gum (Elasticidade)", "descricao": "Transmuta a aura Nen com as propriedades elásticas da borracha e adesivas do chiclete.", "imagem": "./imagens/habilidades/bungee.png" },
-    { "id": 75, "cartaId": 18, "nome": "Textura Surpresa", "descricao": "Aplica uma fina camada de ilusão sobre tecidos ou superfícies para esconder ferimentos ou enganar.", "imagem": "./imagens/habilidades/textura.png" },
-    { "id": 76, "cartaId": 18, "nome": "Arremesso de Cartas Cortantes", "descricao": "Lança cartas de baralho imbuídas com Nen de Intensificação que cortam feito metal afiado.", "imagem": "./imagens/habilidades/cartas.png" },
-    { "id": 77, "cartaId": 18, "nome": "Recuo Elástico Estratégico", "descricao": "Ancore a Bungee Gum no cenário para puxar inimigos ou catapultar o próprio corpo.", "imagem": "./imagens/habilidades/recuo.png" },
+    { "id": 74, "cartaId": 18, "nome": "Bungee Gum (Elasticidade)", "descricao": "Transmuta a aura Nen com as propriedades elásticas da borracha e adesivas do chiclete.", "imagem": "./imagens/hisokaBungeeGum.jpg" },
+    { "id": 75, "cartaId": 18, "nome": "Textura Surpresa", "descricao": "Aplica uma fina camada de ilusão sobre tecidos ou superfícies para esconder ferimentos ou enganar.", "imagem": "./imagens/hisokaTextura.jpg" },
+    { "id": 76, "cartaId": 18, "nome": "Arremesso de Cartas Cortantes", "descricao": "Lança cartas de baralho imbuídas com Nen de Intensificação que cortam feito metal afiado.", "imagem": "./imagens/hisokaCarta.jpg" },
+    { "id": 77, "cartaId": 18, "nome": "Defesa Elastica", "descricao": "Usa sua Bungee gum para defender e refletir ataques.", "imagem": "./imagens/hisokaDefesa.jpg" },
 
     { "id": 78, "cartaId": 19, "nome": "Corrente do Aprisionamento (Chain Jail)", "descricao": "Amarras de Nen indestrutíveis que forçam o alvo capturado ao estado de Zetsu forçado.", "imagem": "./imagens/habilidades/aprisionar.png" },
     { "id": 79, "cartaId": 19, "nome": "Corrente do Julgamento", "descricao": "Insere uma corrente no coração do alvo definindo regras que se quebradas causam morte instantânea.", "imagem": "./imagens/habilidades/julgamento.png" },

@@ -111,6 +111,10 @@
   color: var(--text-secondary-color);
 }
 
+.habilidades-da-carta {
+  margin-bottom: 200px;
+}
+
 .habilidades-da-carta .section-title {
   width: 400px;
   margin-bottom: 64px;
@@ -158,6 +162,10 @@
   .informacoes-gerais .section-title {
     width: 250px;
     margin-bottom: 64px;
+  }
+
+  .habilidades-da-carta .section-title {
+    width: 250px;
   }
 
   .informacoes-conteudo .card-body {
