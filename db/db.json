@@ -66,27 +66,27 @@
       "subtitulo": "Konoha / Last Uchiha",
       "imagem": "./imagens/SasukeUchiha.png"
     },
-    {
+     {
       "id": 6,
-      "nome": "Pikachu VMAX",
-      "raridade": "Lendaria",
+      "nome": "Tony Tony Chopper",
+      "raridade": "Comum",
       "destaque": false,
-      "poder": 310,
-      "descricao": "O ícone global do mundo Pokémon em sua forma mais colossal. Ao passar pelo fenômeno Gigantamax, Pikachu não apenas cresce a tamanhos titânicos, mas também acumula uma quantidade imensurável de eletricidade em sua cauda em formato de raio, transformando seus ataques elétricos em tempestades devastadoras.",
-      "legenda": "Carta do Pikachu VMAX.",
-      "subtitulo": "Pokémon / Electric Type",
-      "imagem": "./imagens/PikachuVMAX.png"
+      "poder": 2500,
+      "descricao": "",
+      "legenda": "O médico dos Chapéu de Palha em sua forma Brain Point.",
+      "subtitulo": "Straw Hat Pirates / Doctor",
+      "imagem": "./imagens/Chopper.png"
     },
     {
       "id": 7,
-      "nome": "Charizard EX",
-      "raridade": "Lendaria",
+      "nome": "Nobara Kugisaki",
+      "raridade": "Comum",
       "destaque": false,
-      "poder": 330,
-      "descricao": "Uma das evoluções mais imponentes e populares do tipo Fogo/Voador. Conhecido por seu orgulho e espírito de batalha, o fogo na ponta de sua cauda arde intensamente de acordo com sua força violentamente ativa. Como um Pokémon 'EX', ele representa uma version de elite com poder de fogo capaz de derreter rochas sólidas.",
-      "legenda": "Carta do Charizard EX.",
-      "subtitulo": "Pokémon / Fire Type",
-      "imagem": "./imagens/CharizardEX.png"
+      "poder": 4000,
+      "descricao": "",
+      "legenda": "Ativando a técnica de Ressonância usando seus pregos e martelo.",
+      "subtitulo": "Jujutsu Kaisen / Jujutsu High Student",
+      "imagem": "./imagens/Nobara.png"
     },
     {
       "id": 8,
@@ -221,7 +221,7 @@
       "imagem": "./imagens/Kurapika.png"
     },
     {
-      "id": 22,
+      "id": 20,
       "nome": "Kakashi Hatake",
       "raridade": "Rara",
       "destaque": false,
@@ -232,9 +232,9 @@
       "imagem": "./imagens/Kakashi.png"
     },
     {
-      "id": 23,
+      "id": 21,
       "nome": "Sakura Haruno",
-      "raridade": "Comum",
+      "raridade": "Rara",
       "destaque": false,
       "poder": 5500,
       "descricao": "Integrante do Time 7 original, Sakura evoluiu de uma ninja insegura para a maior kunoichi médica do mundo sob a tutela da Quinta Hokage, Tsunade. Ao dominar o controle perfeito de chakra, ela desenvolveu uma força física monstruosa capaz de quebrar o solo e armazenou energia por anos para liberar o Selo da Força de uma Centena.",
@@ -242,19 +242,19 @@
       "subtitulo": "Konoha / Medical Ninja",
       "imagem": "./imagens/Sakura.png"
     },
-    {
-      "id": 26,
-      "nome": "Mewtwo",
-      "raridade": "Lendaria",
+     {
+      "id": 22,
+      "nome": "Usopp",
+      "raridade": "Comum",
       "destaque": false,
-      "poder": 180,
-      "descricao": "Um Pokémon Lendário criado em laboratório a partir do DNA modificado do mítico Mew. Mewtwo foi concebido para ser a arma de combate definitiva, resultando em poderes psíquicos avassaladores e telecinéticos sem paralelos. Sua história é marcada por crises existenciais e ressentimento contra a ganância humana.",
-      "legenda": "Criado por manipulação genética, um dos Pokémons mais formidáveis.",
-      "subtitulo": "Pokémon / Psychic Type",
-      "imagem": "./imagens/Mewtwo.png"
+      "poder": 2000,
+      "descricao": "",
+      "legenda": "Mirando com precisão milimétrica usando seu estilingue Kabuto.",
+      "subtitulo": "Straw Hat Pirates / Sniper",
+      "imagem": "./imagens/Usopp.png"
     },
     {
-      "id": 28,
+      "id": 23,
       "nome": "Toji Fushiguro",
       "raridade": "Lendaria",
       "destaque": false,
@@ -265,7 +265,7 @@
       "imagem": "./imagens/Toji.png"
     },
     {
-      "id": 29,
+      "id": 24,
       "nome": "Boa Hancock",
       "raridade": "Epica",
       "destaque": false,
@@ -307,16 +307,6 @@
     { "id": 23, "cartaId": 5, "nome": "Flecha de Indra", "descricao": "O ataque ofensivo supremo de Sasuke, disparando uma flecha de relâmpago puro do Susanoo.", "imagem": "./imagens/sasukeFlecha.jpg" },
     { "id": 24, "cartaId": 5, "nome": "Amenotejikana", "descricao": "Manipulação do Rinnegan para trocar instantaneamente a sua posição espacial com objetos ou alvos.", "imagem": "./imagens/sasukeTeletransporte.jpg" },
 
-    { "id": 25, "cartaId": 6, "nome": "G-Max Voltralha", "descricao": "Ataque elétrico colossal Gigantamax que causa dano massivo e paralisa todos os oponentes.", "imagem": "./imagens/habilidades/voltralha.png" },
-    { "id": 26, "cartaId": 6, "nome": "Tormenta de Raios de Giga", "descricao": "Acumula nuvens de tempestade estática que disparam choques contínuos a cada turno no campo.", "imagem": "./imagens/habilidades/estatica.png" },
-    { "id": 27, "cartaId": 6, "nome": "Cauda de Metal Energizada", "descricao": "Golpe físico destruidor de estruturas batendo sua gigantesca cauda em formato de raio.", "imagem": "./imagens/habilidades/cauda_iron.png" },
-    { "id": 28, "cartaId": 6, "nome": "Max Dynamic Barrier", "descricao": "Garante imunidade completa a debuffs de redução de status enquanto estiver em forma gigante.", "imagem": "./imagens/habilidades/sobrecarga.png" },
-
-    { "id": 29, "cartaId": 7, "nome": "Queima EX (Burn Out)", "descricao": "Rajada de chamas intensificadas de alta potência que reduz a resistência do oponente.", "imagem": "./imagens/habilidades/burn_ex.png" },
-    { "id": 30, "cartaId": 7, "nome": "Asa de Fogo Cortante", "descricao": "Voo rasante veloz que atinge as linhas inimigas com chamas concentradas nas asas.", "imagem": "./imagens/habilidades/asas.png" },
-    { "id": 31, "cartaId": 7, "nome": "Explosão de Cauda Incineradora", "descricao": "Libera calor extremo da ponta de sua cauda limpando o campo de efeitos climáticos negativos.", "imagem": "./imagens/habilidades/incinerar.png" },
-    { "id": 32, "cartaId": 7, "nome": "Poder de Retaliação EX", "descricao": "Aumenta exponencialmente o dano dos ataques do tipo fogo quando a vida está baixa.", "imagem": "./imagens/habilidades/furia.png" },
-
     { "id": 33, "cartaId": 8, "nome": "Vazio Roxo (Purple Hollow)", "descricao": "Singularidade espacial gerada ao colidir a atração e a repulsão, apagando a matéria no caminho.", "imagem": "./imagens/purpleHollow.jpg" },
     { "id": 34, "cartaId": 8, "nome": "Expansão de Domínio: Muryoukuusho", "descricao": "Enclausura o inimigo em um espaço onde mentes recebem informações infinitas, paralisando-as.", "imagem": "./imagens/gojoExpansao.jpg" },
     { "id": 35, "cartaId": 8, "nome": "Mugen (Infinito)", "descricao": "A barreira neutra que impede ataques físicos ou mágicos de tocarem o corpo de Gojo.", "imagem": "./imagens/Mugen.jpg" },
@@ -352,79 +342,64 @@
     { "id": 59, "cartaId": 14, "nome": "Voo por Impulso Explosivo", "descricao": "Dispara detonações traseiras contínuas para se locomover pelos céus e flanquear alvos.", "imagem": "./imagens/bakugoVoo.jpg" },
     { "id": 60, "cartaId": 14, "nome": "Stun Grenade", "descricao": "Gera um clarão circular ofuscante com as palmas das mãos cegando oponentes de curto alcance.", "imagem": "./imagens/stunGrenade.jpg" },
 
-    { "id": 61, "cartaId": 15, "nome": "Geleira Gigante (Heaven-Piercing)", "descricao": "Invocação instantânea de blocos de gelo massivos para prender ou congelar os inimigos.", "imagem": "./imagens/habilidades/geleira.png" },
-    { "id": 62, "cartaId": 15, "nome": "Disparo de Labaredas Contínuas", "descricao": "Lança rajadas de fogo concentrado de alta temperatura com o seu lado esquerdo.", "imagem": "./imagens/habilidades/fogo_shoto.png" },
-    { "id": 63, "cartaId": 15, "nome": "Flashfreeze Heatwave", "descricao": "Esfria o ar ao extremo e depois aquece-o de forma súbita gerando uma explosão de expansão térmica.", "imagem": "./imagens/habilidades/heatwave.png" },
-    { "id": 64, "cartaId": 15, "nome": "Mobilidade por Deslize de Gelo", "descricao": "Congela o solo abaixo de seus pés aumentando drasticamente a sua velocidade de esquiva.", "imagem": "./imagens/habilidades/patinar.png" },
+    { "id": 61, "cartaId": 15, "nome": "Geleira Gigante (Heaven-Piercing)", "descricao": "Invocação instantânea de blocos de gelo massivos para prender ou congelar os inimigos.", "imagem": "./imagens/GeleiraGigante.jpg" },
+    { "id": 62, "cartaId": 15, "nome": "Disparo de Labaredas Contínuas", "descricao": "Lança rajadas de fogo concentrado de alta temperatura com o seu lado esquerdo.", "imagem": "./imagens/labareda.jpg" },
+    { "id": 63, "cartaId": 15, "nome": "Fósforo", "descricao": "Consiste em harmonizar simultaneamente os seus lados de fogo e gelo no coração para circular sangue superaquecido pelo corpo, permitindo-lhe liberar chamas frias que podem tanto queimar quanto congelar o alvo.", "imagem": "./imagens/Fosforo.jpg" },
+    { "id": 64, "cartaId": 15, "nome": "Mobilidade por Deslize de Gelo", "descricao": "Congela o solo abaixo de seus pés aumentando drasticamente a sua velocidade de esquiva.", "imagem": "./imagens/mobilidadeShoto.jpg" },
 
-    { "id": 66, "cartaId": 16, "nome": "Jajanken: Pedra", "descricao": "Concentra aura maciça no punho desferindo um soco de curta distância extremamente destrutivo.", "imagem": "./imagens/habilidades/pedra.png" },
-    { "id": 67, "cartaId": 16, "nome": "Jajanken: Tesoura", "descricao": "Transmuta a aura Nen em lâminas afiadas estendidas a partir dos dedos indicador e médio.", "imagem": "./imagens/habilidades/tesoura.png" },
-    { "id": 68, "cartaId": 16, "nome": "Jajanken: Papel", "descricao": "Dispara esferas de energia de Nen emitidas à distância para atingir oponentes de longe.", "imagem": "./imagens/habilidades/papel.png" },
-    { "id": 69, "cartaId": 16, "nome": "Foco Dinâmico (Ryu)", "descricao": "Ajusta as porcentagens de poder ofensivo e defensivo em tempo real nas partes do corpo.", "imagem": "./imagens/habilidades/ryu.png" },
+    { "id": 66, "cartaId": 16, "nome": "Jajanken: Pedra", "descricao": "Concentra aura maciça no punho desferindo um soco de curta distância extremamente destrutivo.", "imagem": "./imagens/JajankenPedra.jpg" },
+    { "id": 67, "cartaId": 16, "nome": "Jajanken: Tesoura", "descricao": "Transmuta a aura Nen em lâminas afiadas estendidas a partir dos dedos indicador e médio.", "imagem": "./imagens/JajankenTesoura.jpg" },
+    { "id": 68, "cartaId": 16, "nome": "Jajanken: Papel", "descricao": "Dispara esferas de energia de Nen emitidas à distância para atingir oponentes de longe.", "imagem": "./imagens/JajankenPapel.jpg" },
+    { "id": 69, "cartaId": 16, "nome": "Contrato Nen", "descricao": "Para derrotar Neferpitou na saga Chimera Ants, Gon fez um pacto extremo com seu próprio Nen, sacrificando todo o seu talento futuro em troca de poder absoluto. ", "imagem": "./imagens/GonAdulto.jpg" },
 
-    { "id": 70, "cartaId": 17, "nome": "Godspeed (Velocidade Divina)", "descricao": "Envolve o corpo em eletricidade sobrecarregando o sistema nervoso para reflexos automáticos máximos.", "imagem": "./imagens/habilidades/godspeed.png" },
-    { "id": 71, "cartaId": 17, "nome": "Palma Elétrica (Narukami)", "descricao": "Salta e descarrega um poderoso raio elétrico concentrado de cima diretamente no alvo.", "imagem": "./imagens/habilidades/narukami.png" },
-    { "id": 72, "cartaId": 17, "nome": "Garras de Assassino Zoldyck", "descricao": "Altera a biologia das mãos transformando as unhas em lâminas afiadas capazes de rasgar carne.", "imagem": "./imagens/habilidades/garras.png" },
-    { "id": 73, "cartaId": 17, "nome": "Eco do Ritmo (Rhythm Echo)", "descricao": "Movimentação rápida ritmada que cria ilusões de ótica com clones de imagem residual.", "imagem": "./imagens/habilidades/rhythm.png" },
+    { "id": 70, "cartaId": 17, "nome": "Godspeed (Velocidade Divina)", "descricao": "Envolve o corpo em eletricidade sobrecarregando o sistema nervoso para reflexos automáticos máximos.", "imagem": "./imagens/killuaGodspeed.jpg" },
+    { "id": 71, "cartaId": 17, "nome": "Palma Elétrica (Narukami)", "descricao": "Salta e descarrega um poderoso raio elétrico concentrado de cima diretamente no alvo.", "imagem": "./imagens/kilLuaNarukami.jpg" },
+    { "id": 72, "cartaId": 17, "nome": "Garras de Assassino Zoldyck", "descricao": "Altera a biologia das mãos transformando as unhas em lâminas afiadas capazes de rasgar carne.", "imagem": "./imagens/killuaGarras.jpg" },
+    { "id": 73, "cartaId": 17, "nome": "Eco do Ritmo (Rhythm Echo)", "descricao": "Movimentação rápida ritmada que cria ilusões de ótica com clones de imagem residual.", "imagem": "./imagens/killuaEco.jpg" },
 
     { "id": 74, "cartaId": 18, "nome": "Bungee Gum (Elasticidade)", "descricao": "Transmuta a aura Nen com as propriedades elásticas da borracha e adesivas do chiclete.", "imagem": "./imagens/hisokaBungeeGum.jpg" },
     { "id": 75, "cartaId": 18, "nome": "Textura Surpresa", "descricao": "Aplica uma fina camada de ilusão sobre tecidos ou superfícies para esconder ferimentos ou enganar.", "imagem": "./imagens/hisokaTextura.jpg" },
     { "id": 76, "cartaId": 18, "nome": "Arremesso de Cartas Cortantes", "descricao": "Lança cartas de baralho imbuídas com Nen de Intensificação que cortam feito metal afiado.", "imagem": "./imagens/hisokaCarta.jpg" },
     { "id": 77, "cartaId": 18, "nome": "Defesa Elastica", "descricao": "Usa sua Bungee gum para defender e refletir ataques.", "imagem": "./imagens/hisokaDefesa.jpg" },
 
-    { "id": 78, "cartaId": 19, "nome": "Corrente do Aprisionamento (Chain Jail)", "descricao": "Amarras de Nen indestrutíveis que forçam o alvo capturado ao estado de Zetsu forçado.", "imagem": "./imagens/habilidades/aprisionar.png" },
-    { "id": 79, "cartaId": 19, "nome": "Corrente do Julgamento", "descricao": "Insere uma corrente no coração do alvo definindo regras que se quebradas causam morte instantânea.", "imagem": "./imagens/habilidades/julgamento.png" },
-    { "id": 80, "cartaId": 19, "nome": "Emperor Time", "descricao": "Olhos Escarlates ativos garantindo o uso de todas as categorias de Nen com 100% de eficiência.", "imagem": "./imagens/habilidades/emperor.png" },
-    { "id": 81, "cartaId": 19, "nome": "Corrente da Cura (Holy Chain)", "descricao": "Acelera intensamente a regeneração biológica celular de ferimentos ou ossos quebrados com Nen.", "imagem": "./imagens/habilidades/cura.png" },
+    { "id": 78, "cartaId": 19, "nome": "Corrente do Aprisionamento (Chain Jail)", "descricao": "Amarras de Nen indestrutíveis que forçam o alvo capturado ao estado de Zetsu forçado.", "imagem": "./imagens/chainJail.jpg" },
+    { "id": 79, "cartaId": 19, "nome": "Corrente do Julgamento", "descricao": "Insere uma corrente no coração do alvo definindo regras que se quebradas causam morte instantânea.", "imagem": "./imagens/judmentKurapika.jpg" },
+    { "id": 80, "cartaId": 19, "nome": "Emperor Time", "descricao": "Olhos Escarlates ativos garantindo o uso de todas as categorias de Nen com 100% de eficiência.", "imagem": "./imagens/kurapikaEmperor.jpg" },
+    { "id": 81, "cartaId": 19, "nome": "Corrente da Cura (Holy Chain)", "descricao": "Acelera intensamente a regeneração biológica celular de ferimentos ou ossos quebrados com Nen.", "imagem": "./imagens/kurapikaCura.jpg" },
 
-    { "id": 82, "cartaId": 20, "nome": "Rumble Ball: Guard Point", "descricao": "Altera a pelagem expandindo-a em uma enorme esfera fofa protetora que reduz danos recebidos.", "imagem": "./imagens/habilidades/diagnostico.png" },
-    { "id": 83, "cartaId": 20, "nome": "Rumble Ball: Kung Fu Point", "descricao": "Forma compacta de artes marciais ágeis com chutes e golpes corporais rápidos em sequência.", "imagem": "./imagens/habilidades/scope.png" },
-    { "id": 84, "cartaId": 20, "nome": "Rumble Ball: Walk Point", "descricao": "Forma quadrúpede original de rena que dobra sua velocidade de fuga e corrida no mapa.", "imagem": "./imagens/habilidades/rumble.png" },
-    { "id": 85, "cartaId": 20, "nome": "Medicina e Primeiros Socorros", "descricao": "Aplica compostos medicinais que removem status de envenenamento e restauram vida de aliados.", "imagem": "./imagens/habilidades/socorros.png" },
+    { "id": 82, "cartaId": 6, "nome": "Rumble Ball: Guard Point", "descricao": "Altera a pelagem expandindo-a em uma enorme esfera fofa protetora que reduz danos recebidos.", "imagem": "./imagens/guardPoint.jpg" },
+    { "id": 83, "cartaId": 6, "nome": "Rumble Ball: Kung Fu Point", "descricao": "Forma compacta de artes marciais ágeis com chutes e golpes corporais rápidos em sequência.", "imagem": "./imagens/kungFuChopper.jpg" },
+    { "id": 84, "cartaId": 6, "nome": "Rumble Ball: Walk Point", "descricao": "Forma quadrúpede original de rena que dobra sua velocidade de fuga e corrida no mapa.", "imagem": "./imagens/walkPoint.jpg" },
+    { "id": 85, "cartaId": 6, "nome": "Medicina e Primeiros Socorros", "descricao": "Aplica compostos medicinais que removem status de envenenamento e restauram vida de aliados.", "imagem": "./imagens/chopperMedicina.jpg" },
 
-    { "id": 86, "cartaId": 21, "nome": "Disparos com Estilingue Kabuto", "descricao": "Pontaria linear impecável de longo alcance usando projéteis de chumbo rápidos.", "imagem": "./imagens/habilidades/kabuto.png" },
-    { "id": 87, "cartaId": 21, "nome": "Pop Green: Devil", "descricao": "Arremessa sementes botânicas que eclodem instantaneamente em cipós e plantas carnívoras de área.", "imagem": "./imagens/habilidades/devil.png" },
-    { "id": 88, "cartaId": 21, "nome": "Estrela de Fumaça Ocultante", "descricao": "Dispara bolsas de fumaça preta densa cegando a visão inimiga e facilitando fugas.", "imagem": "./imagens/habilidades/fumaca.png" },
-    { "id": 89, "cartaId": 21, "nome": "Estrela de Fogo Explosiva", "descricao": "Usa pólvora especial gerando uma explosão pirotécnica de médio impacto em alvos distantes.", "imagem": "./imagens/habilidades/fuga_usopp.png" },
+    { "id": 86, "cartaId": 22, "nome": "Disparos com Estilingue Kabuto", "descricao": "Pontaria linear impecável de longo alcance usando projéteis de chumbo rápidos.", "imagem": "./imagens/kabuto.jpg" },
+    { "id": 87, "cartaId": 22, "nome": "Pop Green: Devil", "descricao": "Arremessa sementes botânicas que eclodem instantaneamente em cipós e plantas carnívoras de área.", "imagem": "./imagens/PopGreen.jpg" },
+    { "id": 88, "cartaId": 22, "nome": "Martelo de 10t", "descricao": "Trata-se de uma farsa: o martelo não passa de um balão gigante feito de metal falso.", "imagem": "./imagens/marteloUsopp.jpg" },
+    { "id": 89, "cartaId": 22, "nome": "Estrela de Fogo Explosiva", "descricao": "Usa pólvora especial gerando uma explosão pirotécnica de médio impacto em alvos distantes.", "imagem": "./imagens/explosion.jpg" },
 
-    { "id": 90, "cartaId": 22, "nome": "Chidori (Espada Relâmpago)", "descricao": "Concentra chakra elétrico massivo na palma da mão desferindo uma estocada perfurante veloz.", "imagem": "./imagens/habilidades/chidori.png" },
-    { "id": 91, "cartaId": 22, "nome": "Sharingan: Cópia de Jutsu", "descricao": "Capacidade passiva de copiar e contra-atacar usando a última habilidade de projétil recebida.", "imagem": "./imagens/habilidades/copia.png" },
-    { "id": 92, "cartaId": 22, "nome": "Invocação: Doton: Doryuhehe", "descricao": "Erigiu uma sólida parede de terra estampada com rostos de cães para barrar investidas.", "imagem": "./imagens/habilidades/parede_terra.png" },
-    { "id": 93, "cartaId": 22, "nome": "Genjutsu do Sharingan", "descricao": "Olhar hipnótico que prende o adversário em uma ilusão mental forçando-o a perder a vez.", "imagem": "./imagens/habilidades/genjutsu.png" },
+    { "id": 90, "cartaId": 20, "nome": "Chidori (Espada Relâmpago)", "descricao": "Concentra chakra elétrico massivo na palma da mão desferindo uma estocada perfurante veloz.", "imagem": "./imagens/chidoriKakashi.jpg" },
+    { "id": 91, "cartaId": 20, "nome": "Sharingan: Cópia de Jutsu", "descricao": "Capacidade passiva de copiar e contra-atacar usando a última habilidade de projétil recebida.", "imagem": "./imagens/kakashiSharingan.jpg" },
+    { "id": 92, "cartaId": 20, "nome": "Mangekyou Sharingan: Kamui", "descricao": "Jutsu espaço-temporal devastador que pode teletransportar qualquer alvo ou parte do corpo para outra dimensão.", "imagem": "./imagens/kakashiKamui.jpg" },
+    { "id": 93, "cartaId": 20, "nome": "Invocação dos Cães Ninjas", "descricao": "Kakashi invoca uma matilha de oito cães treinados para rastreamento, perseguição e imobilização de inimigos.", "imagem": "./imagens/kakashiInvocacao.jpg" },
 
-    { "id": 94, "cartaId": 23, "nome": "Impacto de Punho Ouka Shou", "descricao": "Soco carregado de chakra no solo destruindo a área e jogando destroços nos rivais.", "imagem": "./imagens/habilidades/impacto_sakura.png" },
-    { "id": 95, "cartaId": 23, "nome": "Bisturi de Chakra Médico", "descricao": "Gera finas lâminas de energia nas pontas dos dedos infligindo cortes em músculos internos.", "imagem": "./imagens/habilidades/bisturi.png" },
-    { "id": 96, "cartaId": 23, "nome": "Extração Médica de Toxinas", "descricao": "Habilidade ativa que purifica o organismo de aliados limpando status negativos de veneno.", "imagem": "./imagens/habilidades/extracao.png" },
-    { "id": 97, "cartaId": 23, "nome": "Foco de Armazenamento de Selo", "descricao": "Passiva de recarga que dobra a eficácia da cura de Sakura após acumular energia por turnos.", "imagem": "./imagens/habilidades/selo.png" },
+    { "id": 94, "cartaId": 21, "nome": "Impacto de Punho Ouka Shou", "descricao": "Soco carregado de chakra no solo destruindo a área e jogando destroços nos rivais.", "imagem": "./imagens/sakuraPunho.jpg" },
+    { "id": 95, "cartaId": 21, "nome": "Bisturi de Chakra Médico", "descricao": "Gera finas lâminas de energia nas pontas dos dedos infligindo cortes em músculos internos.", "imagem": "./imagens/sakuraBisturi.jpg" },
+    { "id": 96, "cartaId": 21, "nome": "Extração Médica de Toxinas", "descricao": "Habilidade ativa que purifica o organismo de aliados limpando status negativos de veneno.", "imagem": "./imagens/curaSakura.jpg" },
+    { "id": 97, "cartaId": 21, "nome": "Selo da Força", "descricao": "Quando ativado, o selo libera uma quantidade massiva de chakra que lhe confere força física sobre-humana e regeneração celular instantânea.", "imagem": "./imagens/seloSakura.jpg" },
 
-    { "id": 98, "cartaId": 24, "nome": "Bola das Sombras (Shadow Ball)", "descricao": "Dispara uma esfera de energia fantasmagórica que reduz a resistência defensiva do alvo.", "imagem": "./imagens/habilidades/shadow_ball.png" },
-    { "id": 100, "cartaId": 24, "nome": "Olhar Hipnótico de Sono", "descricao": "Emite ondas psíquicas indutoras de transe adormecendo a carta ativa inimiga por turnos.", "imagem": "./imagens/habilidades/hipnose.png" },
-    { "id": 101, "cartaId": 24, "nome": "Comedor de Sonhos (Dream Eater)", "descricao": "Suga pontos de vida do oponente infligindo dano psíquico caso ele esteja sob o efeito de sono.", "imagem": "./imagens/habilidades/dream_eater.png" },
-    { "id": 102, "cartaId": 24, "nome": "Passiva Intangível de Sombra", "descricao": "Garante alta porcentagem de esquiva evadindo-se para dentro das sombras cenográficas.", "imagem": "./imagens/habilidades/esconderijo.png" },
+    { "id": 111, "cartaId": 7, "nome": "Técnica de Ressonância (Kanzashi)", "descricao": "Ataca partes ou pedaços do alvo enviando o dano de energia direto para o núcleo da alma.", "imagem": "./imagens/Kanzashi.jpg" },
+    { "id": 112, "cartaId": 7, "nome": "Grampo de Detonação (Hairpin)", "descricao": "Explode à distância a energia amaldiçoada acumulada nos pregos disparados no cenário.", "imagem": "./imagens/nobaraExplode.jpg" },
+    { "id": 113, "cartaId": 7, "nome": "Disparo Perfurante de Pregos", "descricao": "Martela pregos infundidos com energia amaldiçoada como projéteis de médio alcance rápidos.", "imagem": "./imagens/nobaraPrego.jpg" },
+    { "id": 114, "cartaId": 7, "nome": "Técnica do Boneco de Palha", "descricao": "Usa um boneco de palha como efígie para amaldiçoar o oponente à distância.", "imagem": "./imagens/nobaraBoneco.jpg" },
 
-    { "id": 103, "cartaId": 25, "nome": "Estrela Cadente (Swift)", "descricao": "Lança projéteis de estrelas douradas mágicas guiadas que nunca erram o alvo ativo.", "imagem": "./imagens/habilidades/swift.png" },
-    { "id": 104, "cartaId": 25, "nome": "Olhos de Boneca (Baby-Doll Eyes)", "descricao": "Olhar extremamente dócil e fofo que reduz o ataque físico da próxima investida adversária.", "imagem": "./imagens/habilidades/olhos.png" },
-    { "id": 105, "cartaId": 25, "nome": "Adaptação Genética Instável", "descricao": "Adquire resistência parcial temporária contra o tipo elemental do último golpe recebido.", "imagem": "./imagens/habilidades/adaptacao.png" },
-    { "id": 106, "cartaId": 25, "nome": "Ataque Rápido de Recuo", "descricao": "Investida leve de curto alcance que permite retornar Eevee para a linha de reserva.", "imagem": "./imagens/habilidades/mordida.png" },
+    { "id": 115, "cartaId": 23, "nome": "Lança Invertida do Céu", "descricao": "Arma amaldiçoada que quebra barreiras e cancela instantaneamente técnicas ativas inimigas.", "imagem": "./imagens/LançaInvertida.jpg" },
+    { "id": 116, "cartaId": 23, "nome": " Katana da Alma Dividida", "descricao": "Lâmina que ignora as armaduras e propriedades físicas cortando direto a alma do oponente.", "imagem": "./imagens/AlmaDividida.jpg" },
+    { "id": 117, "cartaId": 23, "nome": "Restrição Celestial Absoluta", "descricao": "Ausência total de energia amaldiçoada tornando Toji completamente indetectável a radares mágicos.", "imagem": "./imagens/restricao.jpg" },
+    { "id": 118, "cartaId": 23, "nome": "Espírito Amaldiçoado de Inventário", "descricao": "Carrega uma maldição engolida que atua como uma mochila viva. Ela guarda um vasto arsenal de armas e permite que ele altere seu equipamento de forma furtiva no meio da batalha.", "imagem": "./imagens/inventario.jpg" },
 
-    { "id": 107, "cartaId": 26, "nome": "Ataque Psíquico de Impacto (Psystrike)", "descricao": "Materializa ondas mentais em projéteis cinéticos pesados que esmagam alvos ignorando barreiras.", "imagem": "./imagens/habilidades/psystrike.png" },
-    { "id": 108, "cartaId": 26, "nome": "Barreira Psíquica Amnésia", "descricao": "Fortalecimento mental concentrado que zera danos do tipo mágico por tempo determinado.", "imagem": "./imagens/habilidades/amnesia.png" },
-    { "id": 109, "cartaId": 26, "nome": "Recuperação de Células (Recover)", "descricao": "Reorganiza o próprio tecido celular restaurando instantaneamente metade do HP máximo da carta.", "imagem": "./imagens/habilidades/recover.png" },
-    { "id": 110, "cartaId": 26, "nome": "Onda Telecinética Repulsiva", "descricao": "Explosão de força psíquica omnidirecional que afasta e repele combatentes corpo a corpo.", "imagem": "./imagens/habilidades/onda_mental.png" },
-
-    { "id": 111, "cartaId": 27, "nome": "Técnica de Ressonância (Kanzashi)", "descricao": "Ataca partes ou pedaços do alvo enviando o dano de energia direto para o núcleo da alma.", "imagem": "./imagens/habilidades/ressonancia.png" },
-    { "id": 112, "cartaId": 27, "nome": "Grampo de Detonação (Hairpin)", "descricao": "Explode à distância a energia amaldiçoada acumulada nos pregos disparados no cenário.", "imagem": "./imagens/habilidades/hairpin.png" },
-    { "id": 113, "cartaId": 27, "nome": "Disparo Perfurante de Pregos", "descricao": "Martela pregos infundidos com energia amaldiçoada como projéteis de médio alcance rápidos.", "imagem": "./imagens/habilidades/pregos.png" },
-    { "id": 114, "cartaId": 27, "nome": "Tenacidade de Combate", "descricao": "Provoca oponentes a focarem ataques nela protegendo o restante dos integrantes aliados.", "imagem": "./imagens/habilidades/provocacao.png" },
-
-    { "id": 115, "cartaId": 28, "nome": "Lança Invertida do Céu", "descricao": "Arma amaldiçoada que quebra barreiras e cancela instantaneamente técnicas ativas inimigas.", "imagem": "./imagens/habilidades/lanca_ceu.png" },
-    { "id": 116, "cartaId": 28, "nome": "Espada Cortadora de Almas", "descricao": "Lâmina que ignora as armaduras e propriedades físicas cortando direto a alma do oponente.", "imagem": "./imagens/habilidades/espada_alma.png" },
-    { "id": 117, "cartaId": 28, "nome": "Restrição Celestial Absoluta", "descricao": "Ausência total de energia amaldiçoada tornando Toji completamente indetectável a radares mágicos.", "imagem": "./imagens/habilidades/invisibilidade.png" },
-    { "id": 118, "cartaId": 28, "nome": "Ataque com Corrente Oculta", "descricao": "Estende sua arma através de uma corrente longa para golpes de médio alcance ágeis e pesados.", "imagem": "./imagens/habilidades/corrente_toji.png" },
-
-    { "id": 119, "cartaId": 29, "nome": "Mero Mero Mellow", "descricao": "Lança um raio em formato de coração que petrifica qualquer alvo que sinta admiração ou desejo por ela.", "imagem": "./imagens/habilidades/mellow.png" },
-    { "id": 120, "cartaId": 29, "nome": "Slave Arrow", "descricao": "Dispara uma saraivada massiva de flechas de energia que transformam em pedra tudo o que atingem.", "imagem": "./imagens/habilidades/arrows.png" },
-    { "id": 121, "cartaId": 29, "nome": "Perfume Femur Chute", "descricao": "Sequência de chutes marciais que desintegram e quebram partes petrificadas dos adversários.", "imagem": "./imagens/habilidades/femur.png" },
-    { "id": 122, "cartaId": 29, "nome": "Haoshoku Haki (Conquistador Básico)", "descricao": "Libera uma forte onda de presença espiritual que intimida oponentes e cancela invocações fracas.", "imagem": "./imagens/habilidades/haki_boa.png" }
+    { "id": 119, "cartaId": 24, "nome": "Mero Mero Mellow", "descricao": "Lança um raio em formato de coração que petrifica qualquer alvo que sinta admiração ou desejo por ela.", "imagem": "./imagens/MeroMeroMellow.jpg" },
+    { "id": 120, "cartaId": 24, "nome": "Slave Arrow", "descricao": "Dispara uma saraivada massiva de flechas de energia que transformam em pedra tudo o que atingem.", "imagem": "./imagens/boaArrow.jpg" },
+    { "id": 121, "cartaId": 24, "nome": "Perfume Femur Chute", "descricao": "Sequência de chutes marciais que desintegram e quebram partes petrificadas dos adversários.", "imagem": "./imagens/boaChute.jpg" },
+    { "id": 122, "cartaId": 24, "nome": "Pistol Kiss", "descricao": "Dispara beijos em formato de balas que, ao atingirem o alvo, petrificam o local do impacto.", "imagem": "./imagens/pistolKiss.jpg" }
   ]
 }
