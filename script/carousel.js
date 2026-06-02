@@ -15,7 +15,7 @@ const carousel = {
                 item.innerHTML = `
                     <div class="carta-card">
                     <div class="card-wrapper">
-                        <img src="${carta.imagem}" alt="Carta colecionavel do personagem ${carta.nome}" class="imagem-carta-pura">
+                        <img src="${carta.imagem}" alt="Carta colecionavel do personagem ${carta.nome}" class="imagem-carta-pura ${carta.raridade}">
                     </div>
                         <div class="info-carta-externa text-center mt-2 text-white">
                             <h5 class="mb-1">${carta.nome}</h5>

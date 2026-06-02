@@ -10,8 +10,6 @@
     #020617 100%
   );
   padding: 64px 0;
-  border-bottom: 2px solid rgba(255, 69, 0, 0.5);
-  box-shadow: 0 4px 30px rgba(255, 69, 0, 0.15);
 }
 
 #card-grid {
@@ -21,8 +19,21 @@
 #card-grid .card-img-top {
   width: 100%;
   height: auto;
+  max-height: 295px;
   border-radius: 16px;
-  padding: 10px;
+}
+
+#card-grid .card-img-top.Lendaria {
+  border: 4px solid #eab308e6;
+}
+#card-grid .card-img-top.Epica {
+  border: 4px solid #a335eee6;
+}
+#card-grid .card-img-top.Rara {
+  border: 4px solid #0099ffe6;
+}
+#card-grid .card-img-top.Comum {
+  border: 4px solid #525666cc;
 }
 
 #card-grid .card {
@@ -43,6 +54,7 @@
     var(--background-primary-color),
     var(--background-secondary-color)
   );
+  padding: 10px;
 }
 
 #card-grid .card h5 {
@@ -53,35 +65,57 @@
   color: var(--text-secondary-color);
 }
 
-.card.lendaria {
-  border-color: #eab308;
+.card.Lendaria {
+  border-radius: 16px;
+  padding: 2px;
+  border-top: 2px solid rgba(234, 179, 8, 0.9);
+  border-left: 2px solid rgba(234, 179, 8, 0.6);
+  box-shadow:
+    0 0 15px rgba(234, 179, 8, 0.4),
+    0 0 5px rgba(234, 179, 8, 0.6);
 }
-.card.epica {
-  border-color: #a335ee;
+.card.Epica {
+  border-radius: 16px;
+  padding: 2px;
+  border-top: 2px solid rgba(163, 53, 238, 0.9);
+  border-left: 2px solid rgba(163, 53, 238, 0.6);
+  box-shadow:
+    0 0 15px rgba(163, 53, 238, 0.4),
+    0 0 5px rgba(163, 53, 238, 0.6);
 }
-.card.rara {
-  border-color: #0099ff;
+.card.Rara {
+  border-radius: 16px;
+  padding: 2px;
+  border-top: 2px solid rgba(0, 153, 255, 0.9);
+  border-left: 2px solid rgba(0, 153, 255, 0.6);
+  box-shadow:
+    0 0 15px rgba(0, 153, 255, 0.4),
+    0 0 5px rgba(0, 153, 255, 0.6);
 }
-.card.comum {
-  border-color: #525666;
+.card.Comum {
+  border-radius: 16px;
+  padding: 2px;
+  border-top: 2px solid rgba(82, 86, 102, 0.8);
+  border-left: 2px solid rgba(82, 86, 102, 0.5);
+  box-shadow: 0 0 12px rgba(82, 86, 102, 0.3);
 }
 
-.card.lendaria:hover {
+.card.Lendaria:hover {
   transform: translateY(-8px);
   box-shadow: 0 10px 20px rgba(234, 179, 8, 0.6);
 }
 
-.card.epica:hover {
+.card.Epica:hover {
   transform: translateY(-8px);
   box-shadow: 0 10px 20px rgba(163, 53, 238, 0.5);
 }
 
-.card.rara:hover {
+.card.Rara:hover {
   transform: translateY(-8px);
   box-shadow: 0 10px 20px rgba(0, 153, 255, 0.5);
 }
 
-.card.comum:hover {
+.card.Comum:hover {
   transform: translateY(-8px);
   box-shadow: 0 10px 20px rgba(82, 86, 102, 0.4);
 }
@@ -101,7 +135,6 @@
   }
 
   #card-grid .card-img-top {
-    padding: 6px;
     height: 200px;
     object-fit: cover;
     object-position: center top;
