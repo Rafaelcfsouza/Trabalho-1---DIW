@@ -66,13 +66,13 @@
       "subtitulo": "Konoha / Last Uchiha",
       "imagem": "./imagens/SasukeUchiha.png"
     },
-     {
+    {
       "id": 6,
       "nome": "Tony Tony Chopper",
       "raridade": "Comum",
       "destaque": false,
       "poder": 2500,
-      "descricao": "",
+      "descricao": "O amável médico dos Piratas do Chapéu de Palha. Chopper é uma rena que comeu a Hito Hito no Mi (Fruta do Humano), o que lhe concedeu inteligência e a capacidade de falar. Criador das Rumble Balls, ele consegue manipular suas transformações em várias formas de combate, sendo a Brain Point ideal para analisar fraquezas e a Monster Point o seu ápice de poder bruto.",
       "legenda": "O médico dos Chapéu de Palha em sua forma Brain Point.",
       "subtitulo": "Straw Hat Pirates / Doctor",
       "imagem": "./imagens/Chopper.png"
@@ -83,7 +83,7 @@
       "raridade": "Comum",
       "destaque": false,
       "poder": 4000,
-      "descricao": "",
+      "descricao": "Uma confiante e destemida estudante do primeiro ano da Escola Jujutsu de Tóquio. Vinda do interior, Nobara esbanja uma personalidade forte e orgulhosa. Ela utiliza a 'Técnica de Boneco de Palha', manipulando energia amaldiçoada através de um martelo, pregos e um boneco de palha para desferir a letal Ressonância, atacando o núcleo espiritual de seus alvos a distância.",
       "legenda": "Ativando a técnica de Ressonância usando seus pregos e martelo.",
       "subtitulo": "Jujutsu Kaisen / Jujutsu High Student",
       "imagem": "./imagens/Nobara.png"
@@ -216,7 +216,7 @@
       "destaque": false,
       "poder": 7000,
       "descricao": "O último sobrevivente do clã Kurta, movido por um desejo ardente de vingar seu povo e recuperar os Olhos Escarlates roubados pela Trupe Fantasma. Kurapika usa correntes materializadas por seu Nen. Quando seus olhos brilham em escarlate, ele entra no modo 'Emperor Time', permitindo-lhe usar todas as vertentes do Nen com 100% de eficiência.",
-      "legenda": "Com os Olhos Escarlates ativos, pronto para usar suas correntes de Nen.",
+      "legenda": "Com os Olhos Escarlates activos, pronto para usar suas correntes de Nen.",
       "subtitulo": "Hunter x Hunter / Blacklist Hunter",
       "imagem": "./imagens/Kurapika.png"
     },
@@ -242,13 +242,13 @@
       "subtitulo": "Konoha / Medical Ninja",
       "imagem": "./imagens/Sakura.png"
     },
-     {
+    {
       "id": 22,
       "nome": "Usopp",
       "raridade": "Comum",
       "destaque": false,
       "poder": 2000,
-      "descricao": "",
+      "descricao": "O atirador oficial dos Piratas do Chapéu de Palha. Conhecido inicialmente por suas mentiras e covardia, Usopp esconde um coração valente e uma engenhosidade genial. Utilizando seu estilingue Kabuto e sementes de plantas agressivas chamadas Pop Greens, ele compensa a falta de força física com precisão infalível e táticas imprevisíveis.",
       "legenda": "Mirando com precisão milimétrica usando seu estilingue Kabuto.",
       "subtitulo": "Straw Hat Pirates / Sniper",
       "imagem": "./imagens/Usopp.png"
@@ -276,6 +276,7 @@
       "imagem": "./imagens/BoaHancock.png"
     }
   ],
+
 
   "habilidades": [
     { "id": 1, "cartaId": 0, "nome": "Gomu Gomu no Bajrang Gun", "descricao": "Punho colossal do tamanho de uma ilha revestido com Haki do Conquistador Avançado.", "imagem": "./imagens/luffyBajrang.jpg" },
