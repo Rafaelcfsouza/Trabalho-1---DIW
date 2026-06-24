@@ -27,8 +27,10 @@
   </head>
   <body>
     <main class="container mt-5 login-screen" style="max-width: 420px">
+      <img class="logo-img" src="../imagens/LogoMyDecks.png" alt="" />
+
       <div class="login-card">
-        <h2 class="mb-4 text-center">Login</h2>
+        <h2 class="mb-4 text-center login-title">Login</h2>
 
         <p
           id="erro-login"
@@ -56,7 +58,10 @@
           />
         </div>
 
-        <button class="btn btn-primary w-100 mb-3" onclick="fazerLogin(event)">
+        <button
+          class="btn btn-primary border-0 w-100 mb-3 entrar-login"
+          onclick="fazerLogin(event)"
+        >
           Entrar
         </button>
 
