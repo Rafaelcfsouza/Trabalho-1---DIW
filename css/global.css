@@ -29,6 +29,10 @@
   box-sizing: border-box;
 }
 
+.hidden {
+  display: none;
+}
+
 body {
   background: radial-gradient(
     circle at top,
