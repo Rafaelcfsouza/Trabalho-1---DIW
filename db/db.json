@@ -402,5 +402,26 @@
     { "id": 120, "cartaId": 24, "nome": "Slave Arrow", "descricao": "Dispara uma saraivada massiva de flechas de energia que transformam em pedra tudo o que atingem.", "imagem": "./imagens/boaArrow.jpg" },
     { "id": 121, "cartaId": 24, "nome": "Perfume Femur Chute", "descricao": "Sequência de chutes marciais que desintegram e quebram partes petrificadas dos adversários.", "imagem": "./imagens/boaChute.jpg" },
     { "id": 122, "cartaId": 24, "nome": "Pistol Kiss", "descricao": "Dispara beijos em formato de balas que, ao atingirem o alvo, petrificam o local do impacto.", "imagem": "./imagens/pistolKiss.jpg" }
-  ]
+  ],
+
+  "usuarios": [
+     {
+      "id": "1",
+      "login": "admin",
+      "senha": "123",
+      "nome": "Administrador",
+      "email": "admin@mydecks.com",
+      "admin": true
+    },
+    {
+      "id": "2",
+      "login": "user",
+      "senha": "123",
+      "nome": "Usuário Comum",
+      "email": "user@mydecks.com",
+      "admin": false
+    }
+  ],
+
+  "favoritos": []
 }
