@@ -7,3 +7,75 @@
   </head>
   <body></body>
 </html>
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="icon" type="image/png" href="../imagens/LogoMyDecks.png" />
+
+    <title>MyDecks|Login</title>
+  </head>
+  <body>
+    <main class="container mt-5 login-screen" style="max-width: 420px">
+      <img class="logo-img" src="../imagens/LogoMyDecks.png" alt="" />
+
+      <div class="login-card">
+        <h2 class="mb-4 text-center login-title">Login</h2>
+
+        <p
+          id="erro-login"
+          class="text-danger mb-3"
+          style="min-height: 1.2em"
+        ></p>
+
+        <div class="mb-3">
+          <label for="input-login" class="form-label">Login</label>
+          <input
+            type="text"
+            id="input-login"
+            class="form-control"
+            placeholder="seu login"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="input-senha" class="form-label">Senha</label>
+          <input
+            type="password"
+            id="input-senha"
+            class="form-control"
+            placeholder="sua senha"
+          />
+        </div>
+
+        <button
+          class="btn btn-primary border-0 w-100 mb-3 entrar-login"
+          onclick="fazerLogin(event)"
+        >
+          Entrar
+        </button>
+
+        <hr />
+
+        <p class="text-center">Não tem conta?</p>
+        <a href="cadastro.html" class="btn btn-outline-secondary w-100"
+          >Criar conta</a
+        >
+      </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../script/auth.js"></script>
+    <script src="../script/login.js"></script>
+  </body>
+</html>
