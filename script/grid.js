@@ -18,19 +18,20 @@ const grid = {
       let favoritosDoUsuario = []
 
       if (usuario) {
-        const resp = await fetch(`${API_URL}/favoritos?usuarioId=${usuario.id}`)
-        favoritosDoUsuario = await resp.json()
+        const resp = await fetch(`${API_URL}/favoritos`)
+        const todos = await resp.json()
+        favoritosDoUsuario = todos.filter(f => String(f.usuarioId) === String(usuario.id))
       }
 
       cartas.forEach((carta) => {
-        const jaFavoritado = favoritosDoUsuario.some(f => f.cartaId == carta.id)
+        // Sempre compara como string para evitar '2' !== 2
+        const jaFavoritado = favoritosDoUsuario.some(f => String(f.cartaId) === String(carta.id))
 
         const item = document.createElement('div')
         item.className = 'col d-flex justify-content-center'
 
-        // SEM <a> no wrapper — navegação feita via JS no click do card
         item.innerHTML = `
-          <div class="card h-100 ${carta.raridade}" data-carta-id="${carta.id}" data-carta-nome="${carta.nome}" style="cursor:pointer;">
+          <div class="card h-100 ${carta.raridade}" style="cursor:pointer;">
 
             <button class="btn-favorito ${jaFavoritado ? 'favoritado' : ''}"
               title="${jaFavoritado ? 'Remover dos favoritos' : 'Adicionar aos favoritos'}">
@@ -46,16 +47,14 @@ const grid = {
           </div>
         `
 
-        const cardEl   = item.querySelector('.card')
+        const cardEl     = item.querySelector('.card')
         const btnCoracao = item.querySelector('.btn-favorito')
 
-        // Clique no coração — favorita/desfavorita
         btnCoracao.addEventListener('click', (e) => {
-          e.stopPropagation() // impede o clique de subir pro card
+          e.stopPropagation()
           grid.toggleFavorito(carta.id, btnCoracao, favoritosDoUsuario)
         })
 
-        // Clique no card — navega para detalhes
         cardEl.addEventListener('click', () => {
           window.location.href = `./pages/detalhes.html?id=${carta.id || carta.nome}`
         })
@@ -77,9 +76,11 @@ const grid = {
       return
     }
 
-    const favoritoExistente = favoritosDoUsuario.find(f => f.cartaId == cartaId)
+    // Compara como string
+    const favoritoExistente = favoritosDoUsuario.find(f => String(f.cartaId) === String(cartaId))
 
     if (favoritoExistente) {
+      // Remover favorito
       await fetch(`${API_URL}/favoritos/${favoritoExistente.id}`, { method: 'DELETE' })
 
       const idx = favoritosDoUsuario.indexOf(favoritoExistente)
@@ -90,7 +91,7 @@ const grid = {
       btn.title = 'Adicionar aos favoritos'
 
     } else {
-      const novoFavorito = { usuarioId: usuario.id, cartaId: cartaId }
+      const novoFavorito = { usuarioId: String(usuario.id), cartaId: String(cartaId) }
       const resp = await fetch(`${API_URL}/favoritos`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },

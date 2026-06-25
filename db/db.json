@@ -990,7 +990,26 @@
     }
   ],
   "favoritos": [
-   
+    {
+      "usuarioId": "1",
+      "cartaId": "3",
+      "id": "eug9yr2khiU"
+    },
+    {
+      "usuarioId": "1",
+      "cartaId": "8",
+      "id": "6V61Wlf2toA"
+    },
+    {
+      "usuarioId": "1",
+      "cartaId": "7",
+      "id": "BHZMwSZ12CE"
+    },
+    {
+      "usuarioId": "1",
+      "cartaId": "2",
+      "id": "kolJmW6xKas"
+    }
   ],
   "$schema": "./node_modules/json-server/schema.json"
 }
