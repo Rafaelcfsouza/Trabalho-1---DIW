@@ -46,7 +46,7 @@ body {
 .section-title {
   width: 275px;
   padding-top: 32px;
-  margin: 0 auto;
+  margin: 0 auto 64px;
 }
 
 .section-title h2 {
