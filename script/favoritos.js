@@ -1,42 +1,60 @@
 import api from "./api.js"
 
-const detalhes = {
-    async mostrarCard() {
-        const urlParams = new URLSearchParams(window.location.search)
-        const idCartaBuscada = urlParams.get('id')
-        const innerCarta = document.getElementById('card-info-details')
+function getUsuarioLogado() {
+  const dados = sessionStorage.getItem('usuarioLogado')
+  return dados ? JSON.parse(dados) : null
+}
 
-        if (!idCartaBuscada) {
-            alert("Nenhuma carta foi selecionada.");
-            return;
-        }
+const favoritos = {
+    async mostrarFavoritos() {
+        const innerCarta = document.getElementById('card-grid')
 
     try {
+        const favoritos = await api.buscarCartasFavoritas()
         const cartas = await api.buscarCartas()
-        const habilidades = await api.buscarHabilidadesDasCartas()
+        const usuario = getUsuarioLogado()
 
-        const cartaEncontrada = cartas.find(carta => carta.id == idCartaBuscada || carta.nome == idCartaBuscada)
+         favoritos.forEach((favorito) => {
+            if(favorito.usuarioId == usuario.id){
+                cartas.forEach((carta) => {
+                    if(carta.id == favorito.cartaId){
+                        const item = document.createElement('div')
+                item.className = 'col d-flex justify-content-center'
 
-        const habilidadesDaCartaEncontrada = habilidades.filter(habilidade => habilidade.cartaId == idCartaBuscada)
-
-        if(cartaEncontrada){
-            detalhes.exibirFavoritos(cartaEncontrada, innerCarta)
-        }
-        else{
-            innerCarta.innerHTML = `
-                    <div class="alert alert-warning text-center w-100" role="alert">
-                        <h4>Carta não encontrada!</h4>
-                        <p>O ID ou nome informado não corresponde a nenhuma carta da coleção.</p>
-                        <a href="../index.html" class="btn btn-warning mt-2">Voltar para a Home</a>
+                item.innerHTML = `
+                <div class="card h-100 ${carta.raridade}" style="cursor:pointer;">
+                    <img src=".${carta.imagem}" class="card-img-top ${carta.raridade}" alt="Carta colecionável do personagem ${carta.nome}">
+                    <div class="card-body">
+                    <h5 class="card-title">${carta.nome}</h5>
+                    <p class="card-text">${carta.legenda}</p>
                     </div>
-                `;
-            
-            innerGridHabilidades.innerHTML = '';
-        }
-    } 
+
+                </div>
+                `
+                const cardEl     = item.querySelector('.card')
+
+                cardEl.addEventListener('click', () => {
+                window.location.href = `detalhes.html?id=${carta.id || carta.nome}`
+                 })
+
+                innerCarta.appendChild(item)
+                    }
+                })
+
+                 
+
+            }
+         })
+    }
     catch (error) {
         console.error("Erro detalhado:", error);
         alert("Erro ao carregar os detalhes da carta")
     }
 }
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+  favoritos.mostrarFavoritos();
+});
+
+export default favoritos
