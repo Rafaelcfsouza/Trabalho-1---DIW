@@ -274,17 +274,6 @@
       "legenda": "A Imperatriz Pirata petrificando inimigos com a Mero Mero no Mi através do seu raio de atração.",
       "subtitulo": "Kuja Pirates / Former Shichibukai",
       "imagem": "./imagens/BoaHancock.png"
-    },
-    {
-      "nome": "TESTE",
-      "subtitulo": "apenas testando",
-      "raridade": "Comum",
-      "poder": 9000,
-      "descricao": "esse é apenas um teste para ver se vai funcionar",
-      "legenda": "imagem de um teste",
-      "imagem": "./imagens/Teste.png",
-      "destaque": true,
-      "id": "l1qbEhgDLyo"
     }
   ],
   "habilidades": [
@@ -1006,14 +995,6 @@
       "senha": "123",
       "admin": false,
       "id": "xH6AD87B8hg"
-    },
-    {
-      "login": "teste2",
-      "nome": "testando",
-      "email": "teste2@gmail.com",
-      "senha": "123",
-      "admin": false,
-      "id": "q89JOlk9M9M"
     }
   ],
   "favoritos": [
