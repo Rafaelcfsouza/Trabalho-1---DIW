@@ -3,7 +3,93 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MyDecks|Cadastro</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="icon" type="image/png" href="../imagens/LogoMyDecks.png" />
+    <title>MyDecks | Cadastro</title>
   </head>
-  <body></body>
+  <body>
+    <main
+      class="container mt-5 cadastro-usuario-screen"
+      style="max-width: 420px"
+    >
+      <img class="logo-img" src="../imagens/LogoMyDecks.png" alt="" />
+
+      <div class="cadastro-usuario-card">
+        <h2 class="mb-4 text-center">Criar Conta</h2>
+
+        <p
+          id="erro-cadastro"
+          class="text-danger mb-3"
+          style="min-height: 1.2em"
+        ></p>
+
+        <div class="mb-3">
+          <label for="input-login" class="form-label">Login</label>
+          <input
+            type="text"
+            id="input-login"
+            class="form-control"
+            placeholder="escolha um login"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="input-nome" class="form-label">Nome completo</label>
+          <input
+            type="text"
+            id="input-nome"
+            class="form-control"
+            placeholder="seu nome"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="input-email" class="form-label">E-mail</label>
+          <input
+            type="email"
+            id="input-email"
+            class="form-control"
+            placeholder="seu@email.com"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label for="input-senha" class="form-label">Senha</label>
+          <input
+            type="password"
+            id="input-senha"
+            class="form-control"
+            placeholder="escolha uma senha"
+          />
+        </div>
+
+        <button
+          class="btn btn-primary border-0 w-100 mb-3 cadastro-usuario-botao"
+          onclick="cadastrarUsuario(event)"
+        >
+          Cadastrar
+        </button>
+
+        <hr />
+
+        <p class="text-center">Já tem conta ?</p>
+        <a href="login.html" class="btn btn-outline-secondary w-100"
+          >Fazer login</a
+        >
+      </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../script/auth.js"></script>
+    <script src="../script/login.js"></script>
+    <script src="../script/api.js"></script>
+  </body>
 </html>
