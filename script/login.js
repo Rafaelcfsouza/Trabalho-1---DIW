@@ -13,7 +13,6 @@ async function fazerLogin(event) {
   }
 
   try {
-    // Busca todos os usuários e filtra no JS
     const response = await fetch(`${API_URL}/usuarios`);
     const usuarios = await response.json();
 
@@ -48,10 +47,17 @@ async function cadastrarUsuario(event) {
 
   try {
     // Verifica se login já existe
-    const check    = await fetch(`${API_URL}/usuarios?login=${loginVal}`);
-    const existentes = await check.json();
-    if (existentes.length > 0) {
+    const checkLogin    = await fetch(`${API_URL}/usuarios?login=${loginVal}`);
+    const LoginExistentes = await checkLogin.json();
+    if (LoginExistentes.length > 0) {
       erroEl.textContent = 'Esse login já está em uso.';
+      return;
+    }
+    // Verifica se o email já foi usado
+    const checkEmail = await fetch(`${API_URL}/usuarios?email=${emailVal}`);
+    const EmailExistentes = await checkEmail.json();
+    if (EmailExistentes.length > 0) {
+      erroEl.textContent = 'Esse email já está em uso.';
       return;
     }
 
