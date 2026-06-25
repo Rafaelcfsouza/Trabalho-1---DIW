@@ -40,11 +40,151 @@
         </ul>
       </nav>
     </header>
+
+    <section class="container mt-5 cadastro-cards-section">
+      <div class="section-title">
+        <h2>Cadastro de Carta</h2>
+        <hr />
+      </div>
+
+      <div class="card p-4 mb-4">
+        <div class="row g-3">
+          <div class="col-md-1">
+            <label class="form-label">ID</label>
+            <input
+              type="number"
+              id="carta-id"
+              class="form-control"
+              placeholder="auto"
+              disabled
+            />
+          </div>
+          <div class="col-md-4">
+            <label class="form-label">Nome *</label>
+            <input
+              type="text"
+              id="carta-nome"
+              class="form-control"
+              placeholder="Nome da carta"
+            />
+          </div>
+          <div class="col-md-3">
+            <label class="form-label">Subtítulo</label>
+            <input
+              type="text"
+              id="carta-subtitulo"
+              class="form-control"
+              placeholder="Ex: Konoha / Hokage"
+            />
+          </div>
+          <div class="col-md-2">
+            <label class="form-label">Raridade *</label>
+            <select id="carta-raridade" class="form-select">
+              <option value="">Selecione...</option>
+              <option value="Comum">Comum</option>
+              <option value="Rara">Rara</option>
+              <option value="Epica">Épica</option>
+              <option value="Lendaria">Lendária</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label class="form-label">Poder</label>
+            <input
+              type="number"
+              id="carta-poder"
+              class="form-control"
+              placeholder="Ex: 9000"
+            />
+          </div>
+          <div class="col-md-8">
+            <label class="form-label">Descrição *</label>
+            <textarea
+              id="carta-descricao"
+              class="form-control"
+              rows="3"
+              placeholder="Descrição detalhada..."
+            ></textarea>
+          </div>
+          <div class="col-md-4">
+            <label class="form-label">Legenda</label>
+            <input
+              type="text"
+              id="carta-legenda"
+              class="form-control"
+              placeholder="Texto curto do card"
+            />
+          </div>
+          <div class="col-md-8">
+            <label class="form-label">URL da Imagem *</label>
+            <input
+              type="text"
+              id="carta-imagem"
+              class="form-control"
+              placeholder="./imagens/NomeDaImagem.png"
+            />
+          </div>
+          <div class="col-md-2 d-flex align-items-end">
+            <div class="form-check mb-2">
+              <input
+                type="checkbox"
+                id="carta-destaque"
+                class="form-check-input"
+              />
+              <label for="carta-destaque" class="form-check-label"
+                >Destaque?</label
+              >
+            </div>
+          </div>
+        </div>
+
+        <p
+          id="erro-crud"
+          class="text-danger mt-2"
+          style="min-height: 1.2em"
+        ></p>
+
+        <div class="d-flex gap-2 mt-3 flex-wrap">
+          <button class="btn btn-success" onclick="inserirCarta()">
+            <i class="bi bi-plus-circle"></i> Inserir
+          </button>
+          <button class="btn btn-warning" onclick="alterarCarta()">
+            <i class="bi bi-pencil"></i> Alterar
+          </button>
+          <button class="btn btn-danger" onclick="excluirCarta()">
+            <i class="bi bi-trash"></i> Excluir
+          </button>
+          <button class="btn btn-secondary" onclick="limparFormulario()">
+            <i class="bi bi-x-circle"></i> Limpar
+          </button>
+        </div>
+      </div>
+
+      <div class="section-title">
+        <h2>Listagem de Cartas</h2>
+        <hr />
+      </div>
+      <div class="table-responsive">
+        <table class="table table-striped table-hover align-middle">
+          <thead class="table-dark">
+            <tr>
+              <th>ID</th>
+              <th>Nome</th>
+              <th>Raridade</th>
+              <th>Poder</th>
+              <th>Destaque</th>
+              <th>Ação</th>
+            </tr>
+          </thead>
+          <tbody id="tabela-cartas"></tbody>
+        </table>
+      </div>
+    </section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
     <script src="../script/auth.js"></script>
+    <script src="../script/cadastro-crud.js"></script>
   </body>
 </html>
