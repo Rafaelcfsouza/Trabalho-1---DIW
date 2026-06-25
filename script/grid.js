@@ -24,7 +24,6 @@ const grid = {
       }
 
       cartas.forEach((carta) => {
-        // Sempre compara como string para evitar '2' !== 2
         const jaFavoritado = favoritosDoUsuario.some(f => String(f.cartaId) === String(carta.id))
 
         const item = document.createElement('div')
@@ -76,11 +75,10 @@ const grid = {
       return
     }
 
-    // Compara como string
     const favoritoExistente = favoritosDoUsuario.find(f => String(f.cartaId) === String(cartaId))
 
     if (favoritoExistente) {
-      // Remover favorito
+     
       await fetch(`${API_URL}/favoritos/${favoritoExistente.id}`, { method: 'DELETE' })
 
       const idx = favoritosDoUsuario.indexOf(favoritoExistente)
