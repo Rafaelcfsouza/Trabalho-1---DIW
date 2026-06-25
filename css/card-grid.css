@@ -46,6 +46,7 @@
   border-style: solid;
   text-decoration: none;
   overflow: visible !important;
+  position: relative;
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease;
@@ -118,6 +119,50 @@
 .card.Comum:hover {
   transform: translateY(-8px);
   box-shadow: 0 10px 20px rgba(82, 86, 102, 0.4);
+}
+
+.card {
+  position: relative;
+}
+.card-link-wrapper {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.btn-favorito {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.55);
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition:
+    transform 0.15s ease,
+    background 0.15s ease;
+}
+
+.btn-favorito:hover {
+  transform: scale(1.15);
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.btn-favorito i {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.btn-favorito.favoritado i {
+  color: #e63946;
 }
 
 @media (max-width: 850px) {
