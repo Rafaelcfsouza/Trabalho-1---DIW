@@ -46,14 +46,12 @@ async function cadastrarUsuario(event) {
   }
 
   try {
-    // Verifica se login já existe
     const checkLogin    = await fetch(`${API_URL}/usuarios?login=${loginVal}`);
     const LoginExistentes = await checkLogin.json();
     if (LoginExistentes.length > 0) {
       erroEl.textContent = 'Esse login já está em uso.';
       return;
     }
-    // Verifica se o email já foi usado
     const checkEmail = await fetch(`${API_URL}/usuarios?email=${emailVal}`);
     const EmailExistentes = await checkEmail.json();
     if (EmailExistentes.length > 0) {

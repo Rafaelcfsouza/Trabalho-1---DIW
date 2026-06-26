@@ -1,6 +1,3 @@
-// script/auth.js
-// Inclua este script em TODAS as páginas (sem type="module")
-
 function getUsuarioLogado() {
   const dados = sessionStorage.getItem('usuarioLogado');
   return dados ? JSON.parse(dados) : null;
@@ -15,19 +12,16 @@ function atualizarNav() {
   const linkLogout   = document.getElementById('nav-logout');
 
   if (usuario) {
-    // --- usuário logado ---
     linkLogin?.classList.add('hidden');
     linkLogout?.classList.remove('hidden');
     linkFavoritos?.classList.remove('hidden');
 
-    // Cadastro só para admin
     if (usuario.admin === true) {
       linkCadastro?.classList.remove('hidden');
     } else {
       linkCadastro?.classList.add('hidden');
     }
   } else {
-    // --- ninguém logado ---
     linkLogin?.classList.remove('hidden');
     linkLogout?.classList.add('hidden');
     linkFavoritos?.classList.add('hidden');
@@ -37,7 +31,6 @@ function atualizarNav() {
 
 function logout() {
   sessionStorage.removeItem('usuarioLogado');
-  // Detecta se está numa subpasta (/pages/) para redirecionar corretamente
   const emSubpasta = window.location.pathname.includes('/pages/');
   window.location.href = emSubpasta ? '../index.html' : 'index.html';
 }

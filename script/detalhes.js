@@ -27,7 +27,6 @@ const detalhes = {
       const habilidadesDaCarta = habilidades.filter(h => String(h.cartaId) === String(idCartaBuscada))
 
       if (cartaEncontrada) {
-        // Busca favoritos do usuário para saber se esta carta já está favoritada
         const usuario = getUsuarioLogado()
         let jaFavoritado = false
         let favoritosDoUsuario = []

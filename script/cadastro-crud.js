@@ -1,6 +1,5 @@
 const API_URL = 'http://localhost:3000';
 
-// Proteção: redireciona se não for admin 
 document.addEventListener('DOMContentLoaded', () => {
   const usuario = JSON.parse(sessionStorage.getItem('usuarioLogado'));
   if (!usuario || usuario.admin !== true) {
@@ -42,7 +41,6 @@ async function carregarCartas() {
   }
 }
 
-// Preencher formulário ao clicar em Editar
 async function selecionarCarta(id) {
   try {
     const response = await fetch(`${API_URL}/cartas/${id}`);
@@ -70,7 +68,6 @@ async function inserirCarta() {
   const carta = lerFormulario();
   if (!carta) return;
 
-  // Remove o id do objeto (JSON Server gera automaticamente)
   delete carta.id;
 
   try {
@@ -130,7 +127,6 @@ async function excluirCarta() {
   }
 }
 
-// Helpers 
 function lerFormulario() {
   const nome      = document.getElementById('carta-nome').value.trim();
   const raridade  = document.getElementById('carta-raridade').value;

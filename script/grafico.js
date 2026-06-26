@@ -1,6 +1,5 @@
 const BASE_URL_API = "http://localhost:3000"; 
 
-// Adicione o "export default" aqui no início da função
 export default async function inicializarGraficoRaridades() {
     try {
         const resposta = await fetch(`${BASE_URL_API}/cartas`);
