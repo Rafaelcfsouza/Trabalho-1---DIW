@@ -114,6 +114,27 @@
       </div>
     </section>
 
+    <section id="visualizacao-avancada" class="grafico-section">
+      <div class="section-title">
+        <h2>Gráfico de Raridades</h2>
+        <hr />
+      </div>
+
+      <div class="row justify-content-center mb-3 grafico">
+        <div class="col-12 col-md-6 text-center">
+          <h2 class="mb-3">Estatísticas da Coleção</h2>
+          <p class="mb-4">
+            Acompanhe em tempo real a distribuição de raridade das suas cartas
+            de anime.
+          </p>
+
+          <div style="max-width: 360px; margin: 0 auto">
+            <canvas id="graficoRaridades"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <footer>
       <div class="section-title">
         <h2>Informações do Aluno</h2>
@@ -169,6 +190,7 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./script/auth.js"></script>
     <script type="module" src="/script/main.js"></script>
