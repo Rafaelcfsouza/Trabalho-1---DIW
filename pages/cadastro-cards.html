@@ -23,22 +23,28 @@
           <img src="../imagens/LogoMyDecks.png" alt="" />
         </a>
       </div>
-      <nav>
-        <ul>
-          <li id="nav-cadastro" class="hidden">
-            <a href="cadastro-cards.html">Cadastro</a>
-          </li>
-          <li id="nav-favoritos" class="hidden">
-            <a href="favoritos.html">Favoritos</a>
-          </li>
-          <li id="nav-login">
-            <a href="login.html">Login</a>
-          </li>
-          <li id="nav-logout" class="hidden">
-            <a href="#" onclick="logout()">Logout</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="navigation-menu">
+        <label for="menu"
+          ><img src="../imagens/menu.png" alt="menu" class="menu-icon"
+        /></label>
+        <input type="checkbox" id="menu" hidden />
+        <nav>
+          <ul>
+            <li id="nav-cadastro" class="hidden">
+              <a href="cadastro-cards.html">Cadastro</a>
+            </li>
+            <li id="nav-favoritos" class="hidden">
+              <a href="favoritos.html">Favoritos</a>
+            </li>
+            <li id="nav-login">
+              <a href="login.html">Login</a>
+            </li>
+            <li id="nav-logout" class="hidden">
+              <a href="#" onclick="logout()">Logout</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <section class="container mt-5 cadastro-cards-section">

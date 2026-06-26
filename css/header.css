@@ -20,6 +20,7 @@ header {
 
 .logo img {
   height: 200px;
+  display: inline-block;
 }
 
 .logo a {
@@ -36,6 +37,14 @@ header {
   color: var(--special-secondary-color);
 }
 
+.menu-icon {
+  display: none;
+}
+
+.navigation-menu {
+  display: flex;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -45,7 +54,7 @@ nav {
 nav ul {
   display: flex;
   list-style: none;
-  gap: 60px;
+  gap: 100px;
   margin: 0;
   padding: 0;
 }
@@ -69,16 +78,59 @@ nav ul a {
   }
 
   .logo {
-    margin: 0 auto;
+    margin: 0;
+    padding-left: 80px;
   }
 
   nav {
     padding-right: 50px;
   }
+
+  nav ul {
+    gap: 60px;
+  }
 }
 
 @media (max-width: 430px) {
   header {
-    justify-content: center;
+    justify-content: space-between;
+    padding: 0 50px;
+  }
+
+  .logo {
+    padding: 0;
+  }
+
+  nav ul {
+    gap: 40px;
+  }
+  .menu-icon {
+    display: inline-block;
+  }
+
+  input[type="checkbox"]:checked ~ nav {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--background-tertiary-color);
+  }
+
+  .navigation-menu {
+    display: flex;
+    align-items: center;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .logo {
+    margin: 0;
+  }
+
+  .logo img {
+    height: 100px;
   }
 }
