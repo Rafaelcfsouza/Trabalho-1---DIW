@@ -987,6 +987,22 @@
       "nome": "Usuário Comum",
       "email": "user@mydecks.com",
       "admin": false
+    },
+    {
+      "login": "teste2",
+      "nome": "testando",
+      "email": "teste2@gmail.com",
+      "senha": "123",
+      "admin": false,
+      "id": "LJnr66XWysY"
+    },
+    {
+      "login": "teste",
+      "nome": "testando",
+      "email": "teste@gmail.com",
+      "senha": "123",
+      "admin": false,
+      "id": "ypBXJUCWYRI"
     }
   ],
   "favoritos": [
