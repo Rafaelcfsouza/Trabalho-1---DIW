@@ -19,10 +19,8 @@ const favoritos = {
         return;
       }
 
-      // 1. Filtra apenas os favoritos que pertencem ao usuário logado
       const favoritosDoUsuario = todosFavoritos.filter(fav => fav.usuarioId == usuario.id)
 
-      // 2. Agora sim, checa se o vetor de favoritos DESTE usuário está vazio
       if (favoritosDoUsuario.length === 0) {
         const item = document.createElement('div')
         item.className = 'container mt-5 text-center card-favoritos'
@@ -31,9 +29,7 @@ const favoritos = {
         return 
       }
 
-      // 3. Renderiza apenas as cartas favoritadas por ele
       favoritosDoUsuario.forEach((favorito) => {
-        // Encontra a carta correspondente no inventário global
         const carta = cartas.find(c => c.id == favorito.cartaId)
 
         if (carta) {
